@@ -1,0 +1,22 @@
+{
+  "name": "mozuxd-simulator",
+  "version": "0.1.0",
+  "description": "Test fixtures, harnesses, and assertions for Mozu Extensions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://tfs.corp.volusion.com:8080/tfs/VNext/Prototype/_git/mozuxd-simulator"
+  },
+  "keywords": [
+    "test",
+    "harness",
+    "mozu",
+    "mozuxd",
+    "simulator"
+  ],
+  "author": "James Zetlen, Volusion, Inc.",
+  "license": "ISC"
+}
