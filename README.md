@@ -43,24 +43,27 @@ var fixtures = require('mozuxd-simulator').fixtures;
 var action = require('../dist/app')['api.commerce.order.beforeAddItem'];
 
 describe('My Mozu Extension', function() {
-    describe('The order.beforeAddItem custom function', function() {
-        it('runs successfully and calls the doSomething context function', function(done) {
-            var called = false;
-            var context = {
-              get: {
-                order: fixtures.get('api.commerce.order')
-              },
-              exec: {
-                doSomething: function() {
-                  called = true;
-                  test.equal(arguments.length, 2, "Expected doSomething function to receive 2 parameters.");
-                  // other assertions
-                }
+  describe('The order.beforeAddItem custom function', 
+    function() {
+      it('runs successfully and calls the doSomething context function',
+        function(done) {
+          var called = false;
+          var context = {
+            get: {
+              order: fixtures.get('api.commerce.order')
+            },
+            exec: {
+              doSomething: function() {
+                called = true;
+                test.equal(arguments.length, 2, 
+                  "Expected doSomething function to receive 2 parameters.");
+                // other assertions
               }
-            };
+            }
+          };
 
             var callback = function() {
-                assert.ok(called, "doSomething called");
+              assert.ok(called, "doSomething called");
                 assert.ok(true, "callback called");
                 done();
             }
@@ -108,7 +111,7 @@ simpleCart.discountedTotal = simpleCart.discountedTotal - 10;
 
 The simulator also contains an assertion library, for use in your unit tests.
 
-##### `var assert require('mozuxd-simulator').assert;`
+##### `var assert = require('mozuxd-simulator').assert;`
 
 Currently, this library has all the same methods as the [Node.js `assert` module](https://nodejs.org/api/assert.html). In the future, it may include special convenience assertions for common Mozu Extension cases.
 
