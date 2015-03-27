@@ -1,6 +1,6 @@
 {
   "name": "mozuxd-simulator",
-  "version": "0.2.1",
+  "version": "1.0.0-beta1",
   "description": "Test fixtures, harnesses, and assertions for Mozu Extensions.",
   "author": "Volusion, Inc.",
   "contributors": [
