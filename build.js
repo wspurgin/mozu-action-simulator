@@ -1,9 +1,12 @@
 var fs = require('fs');
+var chalk = require('chalk');
 var when = require('when');
 var assert = require('assert');
 var client = require('mozu-node-sdk').client();
 var typeGetters = require('./type-getters');
-var typeJson = require('./type-fixtures.json');
+var printAllGetTypes = require('./print-all-get-types');
+
+var typeJson = {};
 
 assert(client.context.tenant && client.context.site, "Please provide a mozu.config.json file that specifies a tenant and site.");
 
@@ -16,4 +19,17 @@ when.all(Object.keys(typeGetters).map(function(type) {
   })
 })).then(function() {
   fs.writeFileSync('./type-fixtures.json', JSON.stringify(typeJson, null, 2), 'utf8');
+
+
+  var missingTypes = printAllGetTypes.filter(function(type) {
+    return !typeJson[type];
+  });
+
+  if (missingTypes && missingTypes.length > 0) {
+    console.error(chalk.bold.red("\nThe fixtures collection is missing the types: \n\n ") + chalk.red(missingTypes.join('\n ')) + chalk.bold.red("\n\nThese will be required in unit tests.\n"));
+    process.exit(1);
+  } else {
+    console.log(chalk.bold.green('\nSimulator fixtures built successfully!\n'))
+  }
+
 }).done();

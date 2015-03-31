@@ -22,7 +22,10 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "chalk": "^1.0.0",
+    "lodash.uniq": "^3.1.0",
     "mozu-node-sdk": "^1.15.15052-hotfix3",
+    "mozuxd-metadata": "^1.17.1-dev1503311633-s-staging",
     "when": "^3.7.2"
   }
 }
