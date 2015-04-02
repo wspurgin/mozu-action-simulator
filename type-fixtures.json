@@ -1961,7 +1961,7 @@
     }
   },
   "api.commerce.cart": {
-    "userId": "8ee03eb28f204f4fa4146c22bd23c850",
+    "userId": "597a898fda7847aea9b7a5e128ee9ff1",
     "items": [
       {
         "id": "49f1fea7ca004ea3b0b3a41b0125ad34",
@@ -1980,34 +1980,14 @@
           "options": [],
           "properties": [
             {
-              "attributeFQN": "tenant~product-upsell",
-              "name": "Product Upsells",
+              "attributeFQN": "tenant~availability",
+              "name": "Availability",
               "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-related",
-              "name": "Related Products",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-crosssell",
-              "name": "Product Cross-Sells",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~rating",
-              "name": "Rating",
-              "dataType": "Number",
-              "isMultiValue": true,
+              "isMultiValue": false,
               "values": [
                 {
-                  "value": 5
+                  "stringValue": "Usually Ships in 24 Hours",
+                  "value": "24hrs"
                 }
               ]
             },
@@ -2023,16 +2003,36 @@
               ]
             },
             {
-              "attributeFQN": "tenant~availability",
-              "name": "Availability",
-              "dataType": "String",
-              "isMultiValue": false,
+              "attributeFQN": "tenant~rating",
+              "name": "Rating",
+              "dataType": "Number",
+              "isMultiValue": true,
               "values": [
                 {
-                  "stringValue": "Usually Ships in 24 Hours",
-                  "value": "24hrs"
+                  "value": 5
                 }
               ]
+            },
+            {
+              "attributeFQN": "tenant~product-crosssell",
+              "name": "Product Cross-Sells",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-related",
+              "name": "Related Products",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-upsell",
+              "name": "Product Upsells",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
             }
           ],
           "categories": [
@@ -2412,7 +2412,7 @@
     ],
     "couponCodes": [],
     "invalidCoupons": [],
-    "id": "061b7e725621e11bd4ad906400002bfe",
+    "id": "061c77b75621e11bd4ad90be00002bfe",
     "tenantId": 11262,
     "siteId": 14951,
     "currencyCode": "USD",
@@ -2443,18 +2443,18 @@
     "taxTotal": 0,
     "feeTotal": 0,
     "total": 3681,
-    "lastValidationDate": "2015-03-31T22:32:17.524Z",
-    "expirationDate": "2015-04-14T22:32:17.524Z",
+    "lastValidationDate": "2015-04-01T16:15:50.803Z",
+    "expirationDate": "2015-04-15T16:15:50.803Z",
     "changeMessages": [],
     "auditInfo": {
-      "updateDate": "2015-03-31T22:32:17.524Z",
-      "createDate": "2015-03-31T22:32:17.524Z",
-      "updateBy": "8ee03eb28f204f4fa4146c22bd23c850",
-      "createBy": "8ee03eb28f204f4fa4146c22bd23c850"
+      "updateDate": "2015-04-01T16:15:50.803Z",
+      "createDate": "2015-04-01T16:15:50.803Z",
+      "updateBy": "597a898fda7847aea9b7a5e128ee9ff1",
+      "createBy": "597a898fda7847aea9b7a5e128ee9ff1"
     }
   },
   "mozu.commerceRuntime.contracts.cart.cart": {
-    "userId": "8ee03eb28f204f4fa4146c22bd23c850",
+    "userId": "597a898fda7847aea9b7a5e128ee9ff1",
     "items": [
       {
         "id": "49f1fea7ca004ea3b0b3a41b0125ad34",
@@ -2473,34 +2473,14 @@
           "options": [],
           "properties": [
             {
-              "attributeFQN": "tenant~product-upsell",
-              "name": "Product Upsells",
+              "attributeFQN": "tenant~availability",
+              "name": "Availability",
               "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-related",
-              "name": "Related Products",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-crosssell",
-              "name": "Product Cross-Sells",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~rating",
-              "name": "Rating",
-              "dataType": "Number",
-              "isMultiValue": true,
+              "isMultiValue": false,
               "values": [
                 {
-                  "value": 5
+                  "stringValue": "Usually Ships in 24 Hours",
+                  "value": "24hrs"
                 }
               ]
             },
@@ -2516,16 +2496,36 @@
               ]
             },
             {
-              "attributeFQN": "tenant~availability",
-              "name": "Availability",
-              "dataType": "String",
-              "isMultiValue": false,
+              "attributeFQN": "tenant~rating",
+              "name": "Rating",
+              "dataType": "Number",
+              "isMultiValue": true,
               "values": [
                 {
-                  "stringValue": "Usually Ships in 24 Hours",
-                  "value": "24hrs"
+                  "value": 5
                 }
               ]
+            },
+            {
+              "attributeFQN": "tenant~product-crosssell",
+              "name": "Product Cross-Sells",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-related",
+              "name": "Related Products",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-upsell",
+              "name": "Product Upsells",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
             }
           ],
           "categories": [
@@ -2905,7 +2905,7 @@
     ],
     "couponCodes": [],
     "invalidCoupons": [],
-    "id": "061b7e725621e11bd4ad906400002bfe",
+    "id": "061c77b75621e11bd4ad90be00002bfe",
     "tenantId": 11262,
     "siteId": 14951,
     "currencyCode": "USD",
@@ -2936,14 +2936,14 @@
     "taxTotal": 0,
     "feeTotal": 0,
     "total": 3681,
-    "lastValidationDate": "2015-03-31T22:32:17.524Z",
-    "expirationDate": "2015-04-14T22:32:17.524Z",
+    "lastValidationDate": "2015-04-01T16:15:50.803Z",
+    "expirationDate": "2015-04-15T16:15:50.803Z",
     "changeMessages": [],
     "auditInfo": {
-      "updateDate": "2015-03-31T22:32:17.524Z",
-      "createDate": "2015-03-31T22:32:17.524Z",
-      "updateBy": "8ee03eb28f204f4fa4146c22bd23c850",
-      "createBy": "8ee03eb28f204f4fa4146c22bd23c850"
+      "updateDate": "2015-04-01T16:15:50.803Z",
+      "createDate": "2015-04-01T16:15:50.803Z",
+      "updateBy": "597a898fda7847aea9b7a5e128ee9ff1",
+      "createBy": "597a898fda7847aea9b7a5e128ee9ff1"
     }
   },
   "mozu.commerceRuntime.contracts.cart.cartItem": {
@@ -2963,34 +2963,14 @@
       "options": [],
       "properties": [
         {
-          "attributeFQN": "tenant~product-upsell",
-          "name": "Product Upsells",
+          "attributeFQN": "tenant~availability",
+          "name": "Availability",
           "dataType": "String",
-          "isMultiValue": true,
-          "values": []
-        },
-        {
-          "attributeFQN": "tenant~product-related",
-          "name": "Related Products",
-          "dataType": "String",
-          "isMultiValue": true,
-          "values": []
-        },
-        {
-          "attributeFQN": "tenant~product-crosssell",
-          "name": "Product Cross-Sells",
-          "dataType": "String",
-          "isMultiValue": true,
-          "values": []
-        },
-        {
-          "attributeFQN": "tenant~rating",
-          "name": "Rating",
-          "dataType": "Number",
-          "isMultiValue": true,
+          "isMultiValue": false,
           "values": [
             {
-              "value": 5
+              "stringValue": "Usually Ships in 24 Hours",
+              "value": "24hrs"
             }
           ]
         },
@@ -3006,16 +2986,36 @@
           ]
         },
         {
-          "attributeFQN": "tenant~availability",
-          "name": "Availability",
-          "dataType": "String",
-          "isMultiValue": false,
+          "attributeFQN": "tenant~rating",
+          "name": "Rating",
+          "dataType": "Number",
+          "isMultiValue": true,
           "values": [
             {
-              "stringValue": "Usually Ships in 24 Hours",
-              "value": "24hrs"
+              "value": 5
             }
           ]
+        },
+        {
+          "attributeFQN": "tenant~product-crosssell",
+          "name": "Product Cross-Sells",
+          "dataType": "String",
+          "isMultiValue": true,
+          "values": []
+        },
+        {
+          "attributeFQN": "tenant~product-related",
+          "name": "Related Products",
+          "dataType": "String",
+          "isMultiValue": true,
+          "values": []
+        },
+        {
+          "attributeFQN": "tenant~product-upsell",
+          "name": "Product Upsells",
+          "dataType": "String",
+          "isMultiValue": true,
+          "values": []
         }
       ],
       "categories": [
