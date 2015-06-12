@@ -1,6 +1,6 @@
 var uniq = require('lodash.uniq');
 
-var aDs = require('mozuxd-metadata').actionDefinitions;
+var aDs = require('mozu-metadata').actionDefinitions;
 
 module.exports = uniq(aDs.actions.reduce(function(memo, action) {
   try {

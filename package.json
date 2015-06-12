@@ -1,7 +1,7 @@
 {
-  "name": "mozuxd-simulator",
+  "name": "mozu-action-simulator",
   "version": "1.1.2",
-  "description": "Test fixtures, harnesses, and assertions for Mozu Extensions.",
+  "description": "Test fixtures, harnesses, and assertions for Mozu Code Actions.",
   "author": "Volusion, Inc.",
   "contributors": [
     {
@@ -17,15 +17,14 @@
     "test",
     "harness",
     "mozu",
-    "mozuxd",
     "simulator"
   ],
   "license": "MIT",
   "devDependencies": {
     "chalk": "^1.0.0",
     "lodash.uniq": "^3.1.0",
-    "mozu-node-sdk": "^1.15.15052-hotfix3",
-    "mozuxd-metadata": "^1.17.1-dev1503311633-s-staging",
+    "mozu-metadata": "^1.17.4-dev1505181422-s1",
+    "mozu-node-sdk": "^1.17.15154",
     "when": "^3.7.2"
   }
 }

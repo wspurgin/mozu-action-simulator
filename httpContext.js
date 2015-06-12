@@ -1,4 +1,4 @@
-function HttpRespnose(parentContext) {
+function HttpResponse(parentContext) {
     this.parentContext = parentContext;
     this.header = {};
     this.status = 200;
@@ -33,7 +33,7 @@ function HttpRespnose(parentContext) {
 
 }
 
-Object.defineProperty( HttpRespnose.prototype, 'body',{
+Object.defineProperty( HttpResponse.prototype, 'body',{
 	get:function(){ return this._body;},
 	set:function (val){
 		this._body = val;
@@ -64,7 +64,7 @@ function HttpRequest(parentContext) {
 function HttpContext(ctx, callback) {
     this.get = ctx.get || {};
     this.exec = ctx.exec || {};
-    this.response = new HttpRespnose(this);
+    this.response = new HttpResponse(this);
     this.request = new HttpRequest(this);
     this.callback = callback;
 }
