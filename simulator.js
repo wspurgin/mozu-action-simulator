@@ -33,7 +33,5 @@ function transformContextConfig(cfg, callback) {
 }
 
 module.exports = function(actionName, implementation, contextConfig, callback) {
-    return function() {
-        return implementation.call(null, transformContextConfig(contextConfig, callback), callback);
-    };
+    return implementation.call(null, transformContextConfig(contextConfig, callback), callback);
 };
