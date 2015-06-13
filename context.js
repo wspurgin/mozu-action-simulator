@@ -5,7 +5,7 @@ var fixtures = require('./fixtures');
 
 module.exports = function(actionName, callback) {
   var newContext = new GenericContext();
-  var def = ActionsDefs.actions.reduce(function(match, action) {
+  var def = ActionDefs.actions.reduce(function(match, action) {
     return action.action === actionName ? action : match;
   }, null);
   if (!def || !def.context) {
