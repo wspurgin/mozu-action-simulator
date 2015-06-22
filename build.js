@@ -2,7 +2,7 @@ var fs = require('fs');
 var chalk = require('chalk');
 var when = require('when');
 var assert = require('assert');
-var client = require('mozu-node-sdk').client();
+var client = require('mozu-node-sdk').client(null, { plugins: [require('mozu-node-sdk/plugins/fiddler-proxy')]});
 var typeGetters = require('./type-getters');
 var printAllGetTypes = require('./print-all-get-types');
 
@@ -15,7 +15,7 @@ when.all(Object.keys(typeGetters).map(function(type) {
   console.log(' Requesting ' + type);
   return typeGetters[type](client).then(function(result) {
     typeJson[type] = result;
-    console.log(' >> ' + type + " downloaded!!");
+    console.log(' >> ' + type + " downloaded!");
   })
 })).then(function() {
   fs.writeFileSync('./type-fixtures.json', JSON.stringify(typeJson, null, 2), 'utf8');
@@ -27,7 +27,7 @@ when.all(Object.keys(typeGetters).map(function(type) {
 
   if (missingTypes && missingTypes.length > 0) {
     console.error(chalk.bold.red("\nThe fixtures collection is missing the types: \n\n ") + chalk.red(missingTypes.join('\n ')) + chalk.bold.red("\n\nThese will be required in unit tests.\n"));
-    process.exit(1);
+    //process.exit(1);
   } else {
     console.log(chalk.bold.green('\nSimulator fixtures built successfully!\n'))
   }

@@ -29,7 +29,7 @@ function HttpResponse(parentContext) {
     this.end  = function (){
     	this.parentContext.callback();
     };
-
+    this.viewData = {};
 
 }
 
@@ -68,8 +68,5 @@ function HttpContext(ctx, callback) {
     this.request = new HttpRequest(this);
     this.callback = callback;
 }
-HttpContext.create = function(ctx, callback) {
-    return new HttpContext(ctx, callback);
-};
 
 module.exports = HttpContext;

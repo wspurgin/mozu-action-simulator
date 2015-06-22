@@ -103,6 +103,282 @@
       }
     ]
   },
+  "mozu.commerce.catalog.storefront.product": {
+    "productCode": "MS-BTL-005",
+    "productSequence": 32,
+    "productUsage": "Standard",
+    "fulfillmentTypesSupported": [
+      "DirectShip",
+      "InStorePickup"
+    ],
+    "goodsType": "Physical",
+    "content": {
+      "productName": "Wide-Mouth Loop-Top Watter Bottle",
+      "productFullDescription": "Guaranteed leakproof, this Mystic Nalgene wide-mouth loop-top water bottle is a must-have for camping or campus. Made of Eastman Tritan™ copolyester, the bottle is dishwasher safe (top rack only) and completely BPA-free Tritan™ copolyester provides excellent impact resistance and is suitable for both warm and cold beverages. Wide mouth makes it easy to fill without spilling. Nalgene wide-mouth water bottle has a convenient loop-top design so you'll never lose the lid. Please note: not recommended for use in oven or microwave. Made in USA.",
+      "productShortDescription": "Guaranteed leakproof, this Mystic Nalgene wide-mouth loop-top water bottle is a must-have for camping or campus.",
+      "metaTagTitle": "Wide-Mouth Loop-Top Watter Bottle",
+      "metaTagDescription": "",
+      "metaTagKeywords": "",
+      "seoFriendlyUrl": "wide-mouth-loop-top-watter-bottle",
+      "productImages": [
+        {
+          "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/c1ce28d7-aeb5-4c64-a9ce-7201060853b6",
+          "cmsId": "c1ce28d7-aeb5-4c64-a9ce-7201060853b6",
+          "sequence": 1
+        },
+        {
+          "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/93f3fafe-1e8d-4527-9885-d6328ebf67ae",
+          "cmsId": "93f3fafe-1e8d-4527-9885-d6328ebf67ae",
+          "sequence": 2
+        }
+      ]
+    },
+    "purchasableState": {
+      "isPurchasable": false,
+      "messages": [
+        {
+          "severity": "Info",
+          "source": "Product",
+          "message": "Product is out of stock",
+          "validationType": "OutOfStock"
+        }
+      ]
+    },
+    "isActive": true,
+    "publishState": "Live",
+    "price": {
+      "price": 10,
+      "priceType": "List",
+      "catalogListPrice": 10
+    },
+    "productType": "Water Bottles",
+    "isTaxable": true,
+    "pricingBehavior": {
+      "discountsRestricted": false
+    },
+    "inventoryInfo": {
+      "manageStock": true,
+      "outOfStockBehavior": "DisplayMessage",
+      "onlineStockAvailable": 0,
+      "onlineSoftStockAvailable": 0,
+      "onlineLocationCode": "WRH001"
+    },
+    "createDate": "2014-12-15T21:10:23.151Z",
+    "upc": "",
+    "upCs": [
+      ""
+    ],
+    "mfgPartNumber": "",
+    "mfgPartNumbers": [
+      ""
+    ],
+    "categories": [
+      {
+        "categoryId": 32,
+        "content": {
+          "categoryImages": [],
+          "name": "Accessories",
+          "description": "",
+          "pageTitle": "Accessories",
+          "metaTagTitle": "Accessories",
+          "metaTagDescription": "Accessories",
+          "metaTagKeywords": "Accessories",
+          "slug": "accessories"
+        },
+        "childrenCategories": [],
+        "sequence": 3,
+        "isDisplayed": true,
+        "categoryCode": "32",
+        "count": 0
+      },
+      {
+        "categoryId": 35,
+        "parentCategory": {
+          "categoryId": 32,
+          "content": {
+            "categoryImages": [],
+            "name": "Accessories",
+            "description": "",
+            "pageTitle": "Accessories",
+            "metaTagTitle": "Accessories",
+            "metaTagDescription": "Accessories",
+            "metaTagKeywords": "Accessories",
+            "slug": "accessories"
+          },
+          "childrenCategories": [],
+          "sequence": 1,
+          "isDisplayed": true,
+          "categoryCode": "35",
+          "count": 0
+        },
+        "content": {
+          "categoryImages": [],
+          "name": "Waterbottles",
+          "description": "",
+          "pageTitle": "Waterbottles",
+          "metaTagTitle": "Waterbottles",
+          "metaTagDescription": "Waterbottles",
+          "metaTagKeywords": "Waterbottles",
+          "slug": "waterbottles"
+        },
+        "childrenCategories": [],
+        "sequence": 1,
+        "isDisplayed": true,
+        "categoryCode": "35",
+        "count": 0
+      }
+    ],
+    "measurements": {
+      "packageHeight": {
+        "unit": "in",
+        "value": 4
+      },
+      "packageWidth": {
+        "unit": "in",
+        "value": 4
+      },
+      "packageLength": {
+        "unit": "in",
+        "value": 9
+      },
+      "packageWeight": {
+        "unit": "lbs",
+        "value": 0.5
+      }
+    },
+    "properties": [
+      {
+        "attributeFQN": "Tenant~color",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "Predefined",
+          "inputType": "List",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 5,
+          "name": "Color",
+          "description": "",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": "Blue",
+            "stringValue": "Blue"
+          },
+          {
+            "value": "Grey",
+            "stringValue": "Grey"
+          },
+          {
+            "value": "Multi",
+            "stringValue": "Multi"
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~availability",
+        "isHidden": false,
+        "isMultiValue": false,
+        "attributeDetail": {
+          "valueType": "Predefined",
+          "inputType": "List",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 1,
+          "name": "Availability",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": "24-48hrs",
+            "stringValue": "Usually Ships in 24 to 48 Hours"
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~product-crosssell",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 2,
+          "name": "Product Cross-Sells"
+        },
+        "values": []
+      },
+      {
+        "attributeFQN": "tenant~popularity",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "Number",
+          "usageType": "Property",
+          "dataTypeSequence": 1,
+          "name": "Popularity",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": 2
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~rating",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "Number",
+          "usageType": "Property",
+          "dataTypeSequence": 2,
+          "name": "Rating",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": 2
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~product-related",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 3,
+          "name": "Related Products"
+        },
+        "values": []
+      },
+      {
+        "attributeFQN": "tenant~product-upsell",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 4,
+          "name": "Product Upsells"
+        },
+        "values": []
+      }
+    ],
+    "variations": []
+  },
   "api.commerce.order": {
     "orderNumber": 5,
     "version": "1",
@@ -133,16 +409,14 @@
         "originalCartItemId": "9d6cbbdb8c4f4ba1b027a4190178944d",
         "fulfillmentLocationCode": "WRH001",
         "fulfillmentMethod": "Ship",
+        "lineId": 1,
         "product": {
-          "name": "Action Bundle",
-          "description": "Action camera and sunglasses bundle.",
           "mfgPartNumber": "",
           "upc": "",
           "fulfillmentTypesSupported": [
             "DirectShip"
           ],
           "imageUrl": "//cdn-sb.mozu.com/10466-13354/cms/13354/files/6206b189-8ec7-4ea7-bc12-82cbe35c4348",
-          "productCode": "MS-BUND-001",
           "options": [],
           "properties": [
             {
@@ -226,36 +500,16 @@
             "salePrice": 600
           },
           "discountsRestricted": false,
-          "measurements": {
-            "height": {
-              "unit": "in",
-              "value": 1
-            },
-            "width": {
-              "unit": "in",
-              "value": 1
-            },
-            "length": {
-              "unit": "in",
-              "value": 1
-            },
-            "weight": {
-              "unit": "lbs",
-              "value": 1
-            }
-          },
           "isTaxable": true,
-          "goodsType": "Physical",
-          "isPackagedStandAlone": false,
           "productType": "Action Bundle",
           "productUsage": "Bundle",
           "bundledProducts": [
             {
+              "quantity": 1,
               "productCode": "MS-CAM-002",
               "name": "GoPro Hero3 Helmet Cam",
               "description": "With up to 1080p HD video, the smaller and lighter GoPro HERO3+ Silver Edition helmet cam is more powerful than ever, making it the most advanced Silver Edition camera yet.",
               "goodsType": "Physical",
-              "quantity": 1,
               "isPackagedStandAlone": false,
               "productReservationId": 4,
               "measurements": {
@@ -275,14 +529,15 @@
                   "unit": "lbs",
                   "value": 1.4
                 }
-              }
+              },
+              "fulfillmentStatus": "PendingFulfillment"
             },
             {
+              "quantity": 1,
               "productCode": "MS-EYE-003",
               "name": "Oakley Half Jacket 2.0",
               "description": "All-day comfort in a lightweight design, Oakley Half Jacket 2.0 polarized sunglasses combine style and clarity for all your outdoor activities.",
               "goodsType": "Physical",
-              "quantity": 1,
               "isPackagedStandAlone": false,
               "productReservationId": 5,
               "measurements": {
@@ -302,9 +557,34 @@
                   "unit": "lbs",
                   "value": 1
                 }
-              }
+              },
+              "fulfillmentStatus": "PendingFulfillment"
             }
-          ]
+          ],
+          "productCode": "MS-BUND-001",
+          "name": "Action Bundle",
+          "description": "Action camera and sunglasses bundle.",
+          "goodsType": "Physical",
+          "isPackagedStandAlone": false,
+          "measurements": {
+            "height": {
+              "unit": "in",
+              "value": 1
+            },
+            "width": {
+              "unit": "in",
+              "value": 1
+            },
+            "length": {
+              "unit": "in",
+              "value": 1
+            },
+            "weight": {
+              "unit": "lbs",
+              "value": 1
+            }
+          },
+          "fulfillmentStatus": "PendingFulfillment"
         },
         "quantity": 1,
         "subtotal": 600,
@@ -360,15 +640,13 @@
         "originalCartItemId": "5f1467ac07e946e290b9a41b0125a936",
         "fulfillmentLocationCode": "WRH001",
         "fulfillmentMethod": "Ship",
+        "lineId": 2,
         "product": {
-          "name": "Diamondback Sortie 3 29er",
-          "description": "With big wheels, full-squish and a whole lot of fun, the Diamondback Sortie 3 29er delivers superb trail performance and features Fox suspension, Shimano XT parts and a healthy heaping of awesome.",
           "fulfillmentTypesSupported": [
             "DirectShip",
             "InStorePickup"
           ],
           "imageUrl": "//cdn-sb.mozu.com/10466-13354/cms/13354/files/b73291d5-3e6f-4676-9e41-bdbbfb789343",
-          "productCode": "MS-CYCL-006",
           "variationProductCode": "MS-CYCL-006-2",
           "options": [
             {
@@ -537,6 +815,16 @@
             "price": 3500
           },
           "discountsRestricted": false,
+          "isTaxable": true,
+          "productType": "Bicycle",
+          "productUsage": "Configurable",
+          "bundledProducts": [],
+          "productCode": "MS-CYCL-006",
+          "name": "Diamondback Sortie 3 29er",
+          "description": "With big wheels, full-squish and a whole lot of fun, the Diamondback Sortie 3 29er delivers superb trail performance and features Fox suspension, Shimano XT parts and a healthy heaping of awesome.",
+          "goodsType": "Physical",
+          "isPackagedStandAlone": false,
+          "productReservationId": 6,
           "measurements": {
             "height": {
               "unit": "in",
@@ -555,13 +843,7 @@
               "value": 27
             }
           },
-          "isTaxable": true,
-          "goodsType": "Physical",
-          "isPackagedStandAlone": false,
-          "productType": "Bicycle",
-          "productReservationId": 6,
-          "productUsage": "Configurable",
-          "bundledProducts": []
+          "fulfillmentStatus": "PendingFulfillment"
         },
         "quantity": 1,
         "subtotal": 3500,
@@ -912,7 +1194,7 @@
       }
     ],
     "auditInfo": {
-      "updateDate": "2015-01-09T17:49:42.935Z",
+      "updateDate": "2015-05-30T23:52:07.589Z",
       "createDate": "2015-01-09T17:49:14.861Z",
       "updateBy": "a224ad7e812c4cb0aa63b785cbac2bc6",
       "createBy": "ce8e16b845484bd7bd0fae97a3b1b018"
@@ -948,16 +1230,14 @@
         "originalCartItemId": "9d6cbbdb8c4f4ba1b027a4190178944d",
         "fulfillmentLocationCode": "WRH001",
         "fulfillmentMethod": "Ship",
+        "lineId": 1,
         "product": {
-          "name": "Action Bundle",
-          "description": "Action camera and sunglasses bundle.",
           "mfgPartNumber": "",
           "upc": "",
           "fulfillmentTypesSupported": [
             "DirectShip"
           ],
           "imageUrl": "//cdn-sb.mozu.com/10466-13354/cms/13354/files/6206b189-8ec7-4ea7-bc12-82cbe35c4348",
-          "productCode": "MS-BUND-001",
           "options": [],
           "properties": [
             {
@@ -1041,36 +1321,16 @@
             "salePrice": 600
           },
           "discountsRestricted": false,
-          "measurements": {
-            "height": {
-              "unit": "in",
-              "value": 1
-            },
-            "width": {
-              "unit": "in",
-              "value": 1
-            },
-            "length": {
-              "unit": "in",
-              "value": 1
-            },
-            "weight": {
-              "unit": "lbs",
-              "value": 1
-            }
-          },
           "isTaxable": true,
-          "goodsType": "Physical",
-          "isPackagedStandAlone": false,
           "productType": "Action Bundle",
           "productUsage": "Bundle",
           "bundledProducts": [
             {
+              "quantity": 1,
               "productCode": "MS-CAM-002",
               "name": "GoPro Hero3 Helmet Cam",
               "description": "With up to 1080p HD video, the smaller and lighter GoPro HERO3+ Silver Edition helmet cam is more powerful than ever, making it the most advanced Silver Edition camera yet.",
               "goodsType": "Physical",
-              "quantity": 1,
               "isPackagedStandAlone": false,
               "productReservationId": 4,
               "measurements": {
@@ -1090,14 +1350,15 @@
                   "unit": "lbs",
                   "value": 1.4
                 }
-              }
+              },
+              "fulfillmentStatus": "PendingFulfillment"
             },
             {
+              "quantity": 1,
               "productCode": "MS-EYE-003",
               "name": "Oakley Half Jacket 2.0",
               "description": "All-day comfort in a lightweight design, Oakley Half Jacket 2.0 polarized sunglasses combine style and clarity for all your outdoor activities.",
               "goodsType": "Physical",
-              "quantity": 1,
               "isPackagedStandAlone": false,
               "productReservationId": 5,
               "measurements": {
@@ -1117,9 +1378,34 @@
                   "unit": "lbs",
                   "value": 1
                 }
-              }
+              },
+              "fulfillmentStatus": "PendingFulfillment"
             }
-          ]
+          ],
+          "productCode": "MS-BUND-001",
+          "name": "Action Bundle",
+          "description": "Action camera and sunglasses bundle.",
+          "goodsType": "Physical",
+          "isPackagedStandAlone": false,
+          "measurements": {
+            "height": {
+              "unit": "in",
+              "value": 1
+            },
+            "width": {
+              "unit": "in",
+              "value": 1
+            },
+            "length": {
+              "unit": "in",
+              "value": 1
+            },
+            "weight": {
+              "unit": "lbs",
+              "value": 1
+            }
+          },
+          "fulfillmentStatus": "PendingFulfillment"
         },
         "quantity": 1,
         "subtotal": 600,
@@ -1175,15 +1461,13 @@
         "originalCartItemId": "5f1467ac07e946e290b9a41b0125a936",
         "fulfillmentLocationCode": "WRH001",
         "fulfillmentMethod": "Ship",
+        "lineId": 2,
         "product": {
-          "name": "Diamondback Sortie 3 29er",
-          "description": "With big wheels, full-squish and a whole lot of fun, the Diamondback Sortie 3 29er delivers superb trail performance and features Fox suspension, Shimano XT parts and a healthy heaping of awesome.",
           "fulfillmentTypesSupported": [
             "DirectShip",
             "InStorePickup"
           ],
           "imageUrl": "//cdn-sb.mozu.com/10466-13354/cms/13354/files/b73291d5-3e6f-4676-9e41-bdbbfb789343",
-          "productCode": "MS-CYCL-006",
           "variationProductCode": "MS-CYCL-006-2",
           "options": [
             {
@@ -1352,6 +1636,16 @@
             "price": 3500
           },
           "discountsRestricted": false,
+          "isTaxable": true,
+          "productType": "Bicycle",
+          "productUsage": "Configurable",
+          "bundledProducts": [],
+          "productCode": "MS-CYCL-006",
+          "name": "Diamondback Sortie 3 29er",
+          "description": "With big wheels, full-squish and a whole lot of fun, the Diamondback Sortie 3 29er delivers superb trail performance and features Fox suspension, Shimano XT parts and a healthy heaping of awesome.",
+          "goodsType": "Physical",
+          "isPackagedStandAlone": false,
+          "productReservationId": 6,
           "measurements": {
             "height": {
               "unit": "in",
@@ -1370,13 +1664,7 @@
               "value": 27
             }
           },
-          "isTaxable": true,
-          "goodsType": "Physical",
-          "isPackagedStandAlone": false,
-          "productType": "Bicycle",
-          "productReservationId": 6,
-          "productUsage": "Configurable",
-          "bundledProducts": []
+          "fulfillmentStatus": "PendingFulfillment"
         },
         "quantity": 1,
         "subtotal": 3500,
@@ -1727,7 +2015,7 @@
       }
     ],
     "auditInfo": {
-      "updateDate": "2015-01-09T17:49:42.935Z",
+      "updateDate": "2015-05-30T23:52:07.589Z",
       "createDate": "2015-01-09T17:49:14.861Z",
       "updateBy": "a224ad7e812c4cb0aa63b785cbac2bc6",
       "createBy": "ce8e16b845484bd7bd0fae97a3b1b018"
@@ -1738,16 +2026,14 @@
     "originalCartItemId": "9d6cbbdb8c4f4ba1b027a4190178944d",
     "fulfillmentLocationCode": "WRH001",
     "fulfillmentMethod": "Ship",
+    "lineId": 1,
     "product": {
-      "name": "Action Bundle",
-      "description": "Action camera and sunglasses bundle.",
       "mfgPartNumber": "",
       "upc": "",
       "fulfillmentTypesSupported": [
         "DirectShip"
       ],
       "imageUrl": "//cdn-sb.mozu.com/10466-13354/cms/13354/files/6206b189-8ec7-4ea7-bc12-82cbe35c4348",
-      "productCode": "MS-BUND-001",
       "options": [],
       "properties": [
         {
@@ -1831,36 +2117,16 @@
         "salePrice": 600
       },
       "discountsRestricted": false,
-      "measurements": {
-        "height": {
-          "unit": "in",
-          "value": 1
-        },
-        "width": {
-          "unit": "in",
-          "value": 1
-        },
-        "length": {
-          "unit": "in",
-          "value": 1
-        },
-        "weight": {
-          "unit": "lbs",
-          "value": 1
-        }
-      },
       "isTaxable": true,
-      "goodsType": "Physical",
-      "isPackagedStandAlone": false,
       "productType": "Action Bundle",
       "productUsage": "Bundle",
       "bundledProducts": [
         {
+          "quantity": 1,
           "productCode": "MS-CAM-002",
           "name": "GoPro Hero3 Helmet Cam",
           "description": "With up to 1080p HD video, the smaller and lighter GoPro HERO3+ Silver Edition helmet cam is more powerful than ever, making it the most advanced Silver Edition camera yet.",
           "goodsType": "Physical",
-          "quantity": 1,
           "isPackagedStandAlone": false,
           "productReservationId": 4,
           "measurements": {
@@ -1880,14 +2146,15 @@
               "unit": "lbs",
               "value": 1.4
             }
-          }
+          },
+          "fulfillmentStatus": "PendingFulfillment"
         },
         {
+          "quantity": 1,
           "productCode": "MS-EYE-003",
           "name": "Oakley Half Jacket 2.0",
           "description": "All-day comfort in a lightweight design, Oakley Half Jacket 2.0 polarized sunglasses combine style and clarity for all your outdoor activities.",
           "goodsType": "Physical",
-          "quantity": 1,
           "isPackagedStandAlone": false,
           "productReservationId": 5,
           "measurements": {
@@ -1907,9 +2174,34 @@
               "unit": "lbs",
               "value": 1
             }
-          }
+          },
+          "fulfillmentStatus": "PendingFulfillment"
         }
-      ]
+      ],
+      "productCode": "MS-BUND-001",
+      "name": "Action Bundle",
+      "description": "Action camera and sunglasses bundle.",
+      "goodsType": "Physical",
+      "isPackagedStandAlone": false,
+      "measurements": {
+        "height": {
+          "unit": "in",
+          "value": 1
+        },
+        "width": {
+          "unit": "in",
+          "value": 1
+        },
+        "length": {
+          "unit": "in",
+          "value": 1
+        },
+        "weight": {
+          "unit": "lbs",
+          "value": 1
+        }
+      },
+      "fulfillmentStatus": "PendingFulfillment"
     },
     "quantity": 1,
     "subtotal": 600,
@@ -1961,33 +2253,51 @@
     }
   },
   "api.commerce.cart": {
-    "userId": "597a898fda7847aea9b7a5e128ee9ff1",
+    "userId": "f90f09f6daea44e8bab95db7e077aa83",
     "items": [
       {
         "id": "49f1fea7ca004ea3b0b3a41b0125ad34",
         "fulfillmentLocationCode": "WRH001",
         "fulfillmentMethod": "Ship",
+        "lineId": 1,
         "product": {
-          "name": "Action Bundle",
-          "description": "Action camera and sunglasses bundle.",
           "mfgPartNumber": "",
           "upc": "",
           "fulfillmentTypesSupported": [
             "DirectShip"
           ],
           "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/6206b189-8ec7-4ea7-bc12-82cbe35c4348",
-          "productCode": "MS-BUND-001",
           "options": [],
           "properties": [
             {
-              "attributeFQN": "tenant~availability",
-              "name": "Availability",
+              "attributeFQN": "tenant~product-upsell",
+              "name": "Product Upsells",
               "dataType": "String",
-              "isMultiValue": false,
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-related",
+              "name": "Related Products",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-crosssell",
+              "name": "Product Cross-Sells",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~rating",
+              "name": "Rating",
+              "dataType": "Number",
+              "isMultiValue": true,
               "values": [
                 {
-                  "stringValue": "Usually Ships in 24 Hours",
-                  "value": "24hrs"
+                  "value": 5
                 }
               ]
             },
@@ -2003,36 +2313,16 @@
               ]
             },
             {
-              "attributeFQN": "tenant~rating",
-              "name": "Rating",
-              "dataType": "Number",
-              "isMultiValue": true,
+              "attributeFQN": "tenant~availability",
+              "name": "Availability",
+              "dataType": "String",
+              "isMultiValue": false,
               "values": [
                 {
-                  "value": 5
+                  "stringValue": "Usually Ships in 24 Hours",
+                  "value": "24hrs"
                 }
               ]
-            },
-            {
-              "attributeFQN": "tenant~product-crosssell",
-              "name": "Product Cross-Sells",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-related",
-              "name": "Related Products",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-upsell",
-              "name": "Product Upsells",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
             }
           ],
           "categories": [
@@ -2060,36 +2350,16 @@
             "salePrice": 600
           },
           "discountsRestricted": false,
-          "measurements": {
-            "height": {
-              "unit": "in",
-              "value": 1
-            },
-            "width": {
-              "unit": "in",
-              "value": 1
-            },
-            "length": {
-              "unit": "in",
-              "value": 1
-            },
-            "weight": {
-              "unit": "lbs",
-              "value": 1
-            }
-          },
           "isTaxable": true,
-          "goodsType": "Physical",
-          "isPackagedStandAlone": false,
           "productType": "Action Bundle",
           "productUsage": "Bundle",
           "bundledProducts": [
             {
+              "quantity": 1,
               "productCode": "MS-CAM-002",
               "name": "GoPro Hero3 Helmet Cam",
               "description": "With up to 1080p HD video, the smaller and lighter GoPro HERO3+ Silver Edition helmet cam is more powerful than ever, making it the most advanced Silver Edition camera yet.",
               "goodsType": "Physical",
-              "quantity": 1,
               "isPackagedStandAlone": false,
               "productReservationId": 4,
               "measurements": {
@@ -2109,14 +2379,15 @@
                   "unit": "lbs",
                   "value": 1.4
                 }
-              }
+              },
+              "fulfillmentStatus": "Pending"
             },
             {
+              "quantity": 1,
               "productCode": "MS-EYE-003",
               "name": "Oakley Half Jacket 2.0",
               "description": "All-day comfort in a lightweight design, Oakley Half Jacket 2.0 polarized sunglasses combine style and clarity for all your outdoor activities.",
               "goodsType": "Physical",
-              "quantity": 1,
               "isPackagedStandAlone": false,
               "productReservationId": 5,
               "measurements": {
@@ -2136,9 +2407,34 @@
                   "unit": "lbs",
                   "value": 1
                 }
-              }
+              },
+              "fulfillmentStatus": "Pending"
             }
-          ]
+          ],
+          "productCode": "MS-BUND-001",
+          "name": "Action Bundle",
+          "description": "Action camera and sunglasses bundle.",
+          "goodsType": "Physical",
+          "isPackagedStandAlone": false,
+          "measurements": {
+            "height": {
+              "unit": "in",
+              "value": 1
+            },
+            "width": {
+              "unit": "in",
+              "value": 1
+            },
+            "length": {
+              "unit": "in",
+              "value": 1
+            },
+            "weight": {
+              "unit": "lbs",
+              "value": 1
+            }
+          },
+          "fulfillmentStatus": "PendingFulfillment"
         },
         "quantity": 1,
         "subtotal": 600,
@@ -2188,15 +2484,13 @@
         "id": "fa261a01deda405bbe50a41b0125ad34",
         "fulfillmentLocationCode": "WRH001",
         "fulfillmentMethod": "Ship",
+        "lineId": 2,
         "product": {
-          "name": "Diamondback Sortie 3 29er",
-          "description": "With big wheels, full-squish and a whole lot of fun, the Diamondback Sortie 3 29er delivers superb trail performance and features Fox suspension, Shimano XT parts and a healthy heaping of awesome.",
           "fulfillmentTypesSupported": [
             "DirectShip",
             "InStorePickup"
           ],
           "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/b73291d5-3e6f-4676-9e41-bdbbfb789343",
-          "productCode": "MS-CYCL-006",
           "variationProductCode": "MS-CYCL-006-2",
           "options": [
             {
@@ -2365,6 +2659,16 @@
             "price": 3500
           },
           "discountsRestricted": false,
+          "isTaxable": true,
+          "productType": "Bicycle",
+          "productUsage": "Configurable",
+          "bundledProducts": [],
+          "productCode": "MS-CYCL-006",
+          "name": "Diamondback Sortie 3 29er",
+          "description": "With big wheels, full-squish and a whole lot of fun, the Diamondback Sortie 3 29er delivers superb trail performance and features Fox suspension, Shimano XT parts and a healthy heaping of awesome.",
+          "goodsType": "Physical",
+          "isPackagedStandAlone": false,
+          "productReservationId": 6,
           "measurements": {
             "height": {
               "unit": "in",
@@ -2383,13 +2687,7 @@
               "value": 27
             }
           },
-          "isTaxable": true,
-          "goodsType": "Physical",
-          "isPackagedStandAlone": false,
-          "productType": "Bicycle",
-          "productReservationId": 6,
-          "productUsage": "Configurable",
-          "bundledProducts": []
+          "fulfillmentStatus": "PendingFulfillment"
         },
         "quantity": 1,
         "subtotal": 3500,
@@ -2412,7 +2710,7 @@
     ],
     "couponCodes": [],
     "invalidCoupons": [],
-    "id": "061c77b75621e11bd4ad90be00002bfe",
+    "id": "0688f1d021f6633ed0ca8f6400002bfe",
     "tenantId": 11262,
     "siteId": 14951,
     "currencyCode": "USD",
@@ -2443,44 +2741,63 @@
     "taxTotal": 0,
     "feeTotal": 0,
     "total": 3681,
-    "lastValidationDate": "2015-04-01T16:15:50.803Z",
-    "expirationDate": "2015-04-15T16:15:50.803Z",
+    "lastValidationDate": "2015-06-22T23:01:36.409Z",
+    "expirationDate": "2015-07-06T23:01:36.409Z",
     "changeMessages": [],
+    "extendedProperties": [],
     "auditInfo": {
-      "updateDate": "2015-04-01T16:15:50.803Z",
-      "createDate": "2015-04-01T16:15:50.803Z",
-      "updateBy": "597a898fda7847aea9b7a5e128ee9ff1",
-      "createBy": "597a898fda7847aea9b7a5e128ee9ff1"
+      "updateDate": "2015-06-22T23:01:36.409Z",
+      "createDate": "2015-06-22T23:01:36.409Z",
+      "updateBy": "f90f09f6daea44e8bab95db7e077aa83",
+      "createBy": "f90f09f6daea44e8bab95db7e077aa83"
     }
   },
   "mozu.commerceRuntime.contracts.cart.cart": {
-    "userId": "597a898fda7847aea9b7a5e128ee9ff1",
+    "userId": "f90f09f6daea44e8bab95db7e077aa83",
     "items": [
       {
         "id": "49f1fea7ca004ea3b0b3a41b0125ad34",
         "fulfillmentLocationCode": "WRH001",
         "fulfillmentMethod": "Ship",
+        "lineId": 1,
         "product": {
-          "name": "Action Bundle",
-          "description": "Action camera and sunglasses bundle.",
           "mfgPartNumber": "",
           "upc": "",
           "fulfillmentTypesSupported": [
             "DirectShip"
           ],
           "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/6206b189-8ec7-4ea7-bc12-82cbe35c4348",
-          "productCode": "MS-BUND-001",
           "options": [],
           "properties": [
             {
-              "attributeFQN": "tenant~availability",
-              "name": "Availability",
+              "attributeFQN": "tenant~product-upsell",
+              "name": "Product Upsells",
               "dataType": "String",
-              "isMultiValue": false,
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-related",
+              "name": "Related Products",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-crosssell",
+              "name": "Product Cross-Sells",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~rating",
+              "name": "Rating",
+              "dataType": "Number",
+              "isMultiValue": true,
               "values": [
                 {
-                  "stringValue": "Usually Ships in 24 Hours",
-                  "value": "24hrs"
+                  "value": 5
                 }
               ]
             },
@@ -2496,36 +2813,16 @@
               ]
             },
             {
-              "attributeFQN": "tenant~rating",
-              "name": "Rating",
-              "dataType": "Number",
-              "isMultiValue": true,
+              "attributeFQN": "tenant~availability",
+              "name": "Availability",
+              "dataType": "String",
+              "isMultiValue": false,
               "values": [
                 {
-                  "value": 5
+                  "stringValue": "Usually Ships in 24 Hours",
+                  "value": "24hrs"
                 }
               ]
-            },
-            {
-              "attributeFQN": "tenant~product-crosssell",
-              "name": "Product Cross-Sells",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-related",
-              "name": "Related Products",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-upsell",
-              "name": "Product Upsells",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
             }
           ],
           "categories": [
@@ -2553,36 +2850,16 @@
             "salePrice": 600
           },
           "discountsRestricted": false,
-          "measurements": {
-            "height": {
-              "unit": "in",
-              "value": 1
-            },
-            "width": {
-              "unit": "in",
-              "value": 1
-            },
-            "length": {
-              "unit": "in",
-              "value": 1
-            },
-            "weight": {
-              "unit": "lbs",
-              "value": 1
-            }
-          },
           "isTaxable": true,
-          "goodsType": "Physical",
-          "isPackagedStandAlone": false,
           "productType": "Action Bundle",
           "productUsage": "Bundle",
           "bundledProducts": [
             {
+              "quantity": 1,
               "productCode": "MS-CAM-002",
               "name": "GoPro Hero3 Helmet Cam",
               "description": "With up to 1080p HD video, the smaller and lighter GoPro HERO3+ Silver Edition helmet cam is more powerful than ever, making it the most advanced Silver Edition camera yet.",
               "goodsType": "Physical",
-              "quantity": 1,
               "isPackagedStandAlone": false,
               "productReservationId": 4,
               "measurements": {
@@ -2602,14 +2879,15 @@
                   "unit": "lbs",
                   "value": 1.4
                 }
-              }
+              },
+              "fulfillmentStatus": "Pending"
             },
             {
+              "quantity": 1,
               "productCode": "MS-EYE-003",
               "name": "Oakley Half Jacket 2.0",
               "description": "All-day comfort in a lightweight design, Oakley Half Jacket 2.0 polarized sunglasses combine style and clarity for all your outdoor activities.",
               "goodsType": "Physical",
-              "quantity": 1,
               "isPackagedStandAlone": false,
               "productReservationId": 5,
               "measurements": {
@@ -2629,9 +2907,34 @@
                   "unit": "lbs",
                   "value": 1
                 }
-              }
+              },
+              "fulfillmentStatus": "Pending"
             }
-          ]
+          ],
+          "productCode": "MS-BUND-001",
+          "name": "Action Bundle",
+          "description": "Action camera and sunglasses bundle.",
+          "goodsType": "Physical",
+          "isPackagedStandAlone": false,
+          "measurements": {
+            "height": {
+              "unit": "in",
+              "value": 1
+            },
+            "width": {
+              "unit": "in",
+              "value": 1
+            },
+            "length": {
+              "unit": "in",
+              "value": 1
+            },
+            "weight": {
+              "unit": "lbs",
+              "value": 1
+            }
+          },
+          "fulfillmentStatus": "PendingFulfillment"
         },
         "quantity": 1,
         "subtotal": 600,
@@ -2681,15 +2984,13 @@
         "id": "fa261a01deda405bbe50a41b0125ad34",
         "fulfillmentLocationCode": "WRH001",
         "fulfillmentMethod": "Ship",
+        "lineId": 2,
         "product": {
-          "name": "Diamondback Sortie 3 29er",
-          "description": "With big wheels, full-squish and a whole lot of fun, the Diamondback Sortie 3 29er delivers superb trail performance and features Fox suspension, Shimano XT parts and a healthy heaping of awesome.",
           "fulfillmentTypesSupported": [
             "DirectShip",
             "InStorePickup"
           ],
           "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/b73291d5-3e6f-4676-9e41-bdbbfb789343",
-          "productCode": "MS-CYCL-006",
           "variationProductCode": "MS-CYCL-006-2",
           "options": [
             {
@@ -2858,6 +3159,16 @@
             "price": 3500
           },
           "discountsRestricted": false,
+          "isTaxable": true,
+          "productType": "Bicycle",
+          "productUsage": "Configurable",
+          "bundledProducts": [],
+          "productCode": "MS-CYCL-006",
+          "name": "Diamondback Sortie 3 29er",
+          "description": "With big wheels, full-squish and a whole lot of fun, the Diamondback Sortie 3 29er delivers superb trail performance and features Fox suspension, Shimano XT parts and a healthy heaping of awesome.",
+          "goodsType": "Physical",
+          "isPackagedStandAlone": false,
+          "productReservationId": 6,
           "measurements": {
             "height": {
               "unit": "in",
@@ -2876,13 +3187,7 @@
               "value": 27
             }
           },
-          "isTaxable": true,
-          "goodsType": "Physical",
-          "isPackagedStandAlone": false,
-          "productType": "Bicycle",
-          "productReservationId": 6,
-          "productUsage": "Configurable",
-          "bundledProducts": []
+          "fulfillmentStatus": "PendingFulfillment"
         },
         "quantity": 1,
         "subtotal": 3500,
@@ -2905,7 +3210,7 @@
     ],
     "couponCodes": [],
     "invalidCoupons": [],
-    "id": "061c77b75621e11bd4ad90be00002bfe",
+    "id": "0688f1d021f6633ed0ca8f6400002bfe",
     "tenantId": 11262,
     "siteId": 14951,
     "currencyCode": "USD",
@@ -2936,41 +3241,60 @@
     "taxTotal": 0,
     "feeTotal": 0,
     "total": 3681,
-    "lastValidationDate": "2015-04-01T16:15:50.803Z",
-    "expirationDate": "2015-04-15T16:15:50.803Z",
+    "lastValidationDate": "2015-06-22T23:01:36.409Z",
+    "expirationDate": "2015-07-06T23:01:36.409Z",
     "changeMessages": [],
+    "extendedProperties": [],
     "auditInfo": {
-      "updateDate": "2015-04-01T16:15:50.803Z",
-      "createDate": "2015-04-01T16:15:50.803Z",
-      "updateBy": "597a898fda7847aea9b7a5e128ee9ff1",
-      "createBy": "597a898fda7847aea9b7a5e128ee9ff1"
+      "updateDate": "2015-06-22T23:01:36.409Z",
+      "createDate": "2015-06-22T23:01:36.409Z",
+      "updateBy": "f90f09f6daea44e8bab95db7e077aa83",
+      "createBy": "f90f09f6daea44e8bab95db7e077aa83"
     }
   },
   "mozu.commerceRuntime.contracts.cart.cartItem": {
     "id": "49f1fea7ca004ea3b0b3a41b0125ad34",
     "fulfillmentLocationCode": "WRH001",
     "fulfillmentMethod": "Ship",
+    "lineId": 1,
     "product": {
-      "name": "Action Bundle",
-      "description": "Action camera and sunglasses bundle.",
       "mfgPartNumber": "",
       "upc": "",
       "fulfillmentTypesSupported": [
         "DirectShip"
       ],
       "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/6206b189-8ec7-4ea7-bc12-82cbe35c4348",
-      "productCode": "MS-BUND-001",
       "options": [],
       "properties": [
         {
-          "attributeFQN": "tenant~availability",
-          "name": "Availability",
+          "attributeFQN": "tenant~product-upsell",
+          "name": "Product Upsells",
           "dataType": "String",
-          "isMultiValue": false,
+          "isMultiValue": true,
+          "values": []
+        },
+        {
+          "attributeFQN": "tenant~product-related",
+          "name": "Related Products",
+          "dataType": "String",
+          "isMultiValue": true,
+          "values": []
+        },
+        {
+          "attributeFQN": "tenant~product-crosssell",
+          "name": "Product Cross-Sells",
+          "dataType": "String",
+          "isMultiValue": true,
+          "values": []
+        },
+        {
+          "attributeFQN": "tenant~rating",
+          "name": "Rating",
+          "dataType": "Number",
+          "isMultiValue": true,
           "values": [
             {
-              "stringValue": "Usually Ships in 24 Hours",
-              "value": "24hrs"
+              "value": 5
             }
           ]
         },
@@ -2986,36 +3310,16 @@
           ]
         },
         {
-          "attributeFQN": "tenant~rating",
-          "name": "Rating",
-          "dataType": "Number",
-          "isMultiValue": true,
+          "attributeFQN": "tenant~availability",
+          "name": "Availability",
+          "dataType": "String",
+          "isMultiValue": false,
           "values": [
             {
-              "value": 5
+              "stringValue": "Usually Ships in 24 Hours",
+              "value": "24hrs"
             }
           ]
-        },
-        {
-          "attributeFQN": "tenant~product-crosssell",
-          "name": "Product Cross-Sells",
-          "dataType": "String",
-          "isMultiValue": true,
-          "values": []
-        },
-        {
-          "attributeFQN": "tenant~product-related",
-          "name": "Related Products",
-          "dataType": "String",
-          "isMultiValue": true,
-          "values": []
-        },
-        {
-          "attributeFQN": "tenant~product-upsell",
-          "name": "Product Upsells",
-          "dataType": "String",
-          "isMultiValue": true,
-          "values": []
         }
       ],
       "categories": [
@@ -3043,36 +3347,16 @@
         "salePrice": 600
       },
       "discountsRestricted": false,
-      "measurements": {
-        "height": {
-          "unit": "in",
-          "value": 1
-        },
-        "width": {
-          "unit": "in",
-          "value": 1
-        },
-        "length": {
-          "unit": "in",
-          "value": 1
-        },
-        "weight": {
-          "unit": "lbs",
-          "value": 1
-        }
-      },
       "isTaxable": true,
-      "goodsType": "Physical",
-      "isPackagedStandAlone": false,
       "productType": "Action Bundle",
       "productUsage": "Bundle",
       "bundledProducts": [
         {
+          "quantity": 1,
           "productCode": "MS-CAM-002",
           "name": "GoPro Hero3 Helmet Cam",
           "description": "With up to 1080p HD video, the smaller and lighter GoPro HERO3+ Silver Edition helmet cam is more powerful than ever, making it the most advanced Silver Edition camera yet.",
           "goodsType": "Physical",
-          "quantity": 1,
           "isPackagedStandAlone": false,
           "productReservationId": 4,
           "measurements": {
@@ -3092,14 +3376,15 @@
               "unit": "lbs",
               "value": 1.4
             }
-          }
+          },
+          "fulfillmentStatus": "Pending"
         },
         {
+          "quantity": 1,
           "productCode": "MS-EYE-003",
           "name": "Oakley Half Jacket 2.0",
           "description": "All-day comfort in a lightweight design, Oakley Half Jacket 2.0 polarized sunglasses combine style and clarity for all your outdoor activities.",
           "goodsType": "Physical",
-          "quantity": 1,
           "isPackagedStandAlone": false,
           "productReservationId": 5,
           "measurements": {
@@ -3119,9 +3404,34 @@
               "unit": "lbs",
               "value": 1
             }
-          }
+          },
+          "fulfillmentStatus": "Pending"
         }
-      ]
+      ],
+      "productCode": "MS-BUND-001",
+      "name": "Action Bundle",
+      "description": "Action camera and sunglasses bundle.",
+      "goodsType": "Physical",
+      "isPackagedStandAlone": false,
+      "measurements": {
+        "height": {
+          "unit": "in",
+          "value": 1
+        },
+        "width": {
+          "unit": "in",
+          "value": 1
+        },
+        "length": {
+          "unit": "in",
+          "value": 1
+        },
+        "weight": {
+          "unit": "lbs",
+          "value": 1
+        }
+      },
+      "fulfillmentStatus": "PendingFulfillment"
     },
     "quantity": 1,
     "subtotal": 600,

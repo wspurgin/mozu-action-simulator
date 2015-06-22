@@ -37,11 +37,14 @@ module.exports = function(actionName, callback) {
       newContext.exec[k] = Function.apply(null, argumentsList.concat(functionBody));
     });
   }
-
-  if (def.context.type === "mozu.actions.context.http") {
-    newContext = new HttpContext(newContext, callback);
+   
+  switch (def.context.type) {
+      case 'mozu.actions.context.api.filter':
+      case 'mozu.actions.context.storefront.filter':
+      case 'mozu.actions.context.http':
+          return new HttpContext(newContext, callback);
+      default:
+          return newContext;
   }
-
-  return newContext;
 
 }

@@ -7,6 +7,11 @@ var fs = require('fs');
 //   return client.commerce().order().getOrder({ orderId: orderId });
 // }
 
+function getProduct(client) {
+  return client.commerce().catalog().storefront().product().getProducts({
+    pageSize: 1
+  }).then(pickFirst)
+}
 
 function getOrders(client, number) {
   return client.commerce().order().getOrders({
@@ -39,7 +44,6 @@ function addAnonShopperClaims(client) {
 
 function createCartFromOrder(shopperClient, order) {
   var opts = {
-    scope: 'NONE'
   };
   var client = shopperClient.commerce().cart();
   return client.getOrCreateCart(null, opts).then(function(cart) {
@@ -101,7 +105,8 @@ module.exports = {
   'mozu.commerceRuntime.contracts.orders.orderItem': getFirstOrderFirstItem,
   'api.commerce.cart': getExampleCart,
   'mozu.commerceRuntime.contracts.cart.cart': getExampleCart,
-  'mozu.commerceRuntime.contracts.cart.cartItem': getExampleCartItem
+  'mozu.commerceRuntime.contracts.cart.cartItem': getExampleCartItem,
+  'mozu.commerce.catalog.storefront.product': getProduct
 };
 
 fs.readdirSync('./static-fixtures').forEach(function(file) {
