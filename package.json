@@ -21,13 +21,12 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "mozu-metadata": "^1.17.4-dev1505181422-s1",
-    "mozu-node-sdk": "^1.17.15154-hotfix1"
+    "mozu-metadata": "latest",
+    "mozu-node-sdk": "^1.17.15154-hotfix4"
   },
   "devDependencies": {
-    "chalk": "^1.0.0",
-    "lodash.uniq": "^3.1.0",
-    "mozu-node-sdk": "^1.17.15154",
-    "when": "^3.7.2"
+    "chalk": "^1.1.0",
+    "lodash.uniq": "^3.2.2",
+    "when": "^3.7.3"
   }
 }
