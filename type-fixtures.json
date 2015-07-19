@@ -103,282 +103,6 @@
       }
     ]
   },
-  "mozu.commerce.catalog.storefront.product": {
-    "productCode": "MS-BTL-005",
-    "productSequence": 32,
-    "productUsage": "Standard",
-    "fulfillmentTypesSupported": [
-      "DirectShip",
-      "InStorePickup"
-    ],
-    "goodsType": "Physical",
-    "content": {
-      "productName": "Wide-Mouth Loop-Top Watter Bottle",
-      "productFullDescription": "Guaranteed leakproof, this Mystic Nalgene wide-mouth loop-top water bottle is a must-have for camping or campus. Made of Eastman Tritan™ copolyester, the bottle is dishwasher safe (top rack only) and completely BPA-free Tritan™ copolyester provides excellent impact resistance and is suitable for both warm and cold beverages. Wide mouth makes it easy to fill without spilling. Nalgene wide-mouth water bottle has a convenient loop-top design so you'll never lose the lid. Please note: not recommended for use in oven or microwave. Made in USA.",
-      "productShortDescription": "Guaranteed leakproof, this Mystic Nalgene wide-mouth loop-top water bottle is a must-have for camping or campus.",
-      "metaTagTitle": "Wide-Mouth Loop-Top Watter Bottle",
-      "metaTagDescription": "",
-      "metaTagKeywords": "",
-      "seoFriendlyUrl": "wide-mouth-loop-top-watter-bottle",
-      "productImages": [
-        {
-          "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/c1ce28d7-aeb5-4c64-a9ce-7201060853b6",
-          "cmsId": "c1ce28d7-aeb5-4c64-a9ce-7201060853b6",
-          "sequence": 1
-        },
-        {
-          "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/93f3fafe-1e8d-4527-9885-d6328ebf67ae",
-          "cmsId": "93f3fafe-1e8d-4527-9885-d6328ebf67ae",
-          "sequence": 2
-        }
-      ]
-    },
-    "purchasableState": {
-      "isPurchasable": false,
-      "messages": [
-        {
-          "severity": "Info",
-          "source": "Product",
-          "message": "Product is out of stock",
-          "validationType": "OutOfStock"
-        }
-      ]
-    },
-    "isActive": true,
-    "publishState": "Live",
-    "price": {
-      "price": 10,
-      "priceType": "List",
-      "catalogListPrice": 10
-    },
-    "productType": "Water Bottles",
-    "isTaxable": true,
-    "pricingBehavior": {
-      "discountsRestricted": false
-    },
-    "inventoryInfo": {
-      "manageStock": true,
-      "outOfStockBehavior": "DisplayMessage",
-      "onlineStockAvailable": 0,
-      "onlineSoftStockAvailable": 0,
-      "onlineLocationCode": "WRH001"
-    },
-    "createDate": "2014-12-15T21:10:23.151Z",
-    "upc": "",
-    "upCs": [
-      ""
-    ],
-    "mfgPartNumber": "",
-    "mfgPartNumbers": [
-      ""
-    ],
-    "categories": [
-      {
-        "categoryId": 32,
-        "content": {
-          "categoryImages": [],
-          "name": "Accessories",
-          "description": "",
-          "pageTitle": "Accessories",
-          "metaTagTitle": "Accessories",
-          "metaTagDescription": "Accessories",
-          "metaTagKeywords": "Accessories",
-          "slug": "accessories"
-        },
-        "childrenCategories": [],
-        "sequence": 3,
-        "isDisplayed": true,
-        "categoryCode": "32",
-        "count": 0
-      },
-      {
-        "categoryId": 35,
-        "parentCategory": {
-          "categoryId": 32,
-          "content": {
-            "categoryImages": [],
-            "name": "Accessories",
-            "description": "",
-            "pageTitle": "Accessories",
-            "metaTagTitle": "Accessories",
-            "metaTagDescription": "Accessories",
-            "metaTagKeywords": "Accessories",
-            "slug": "accessories"
-          },
-          "childrenCategories": [],
-          "sequence": 1,
-          "isDisplayed": true,
-          "categoryCode": "35",
-          "count": 0
-        },
-        "content": {
-          "categoryImages": [],
-          "name": "Waterbottles",
-          "description": "",
-          "pageTitle": "Waterbottles",
-          "metaTagTitle": "Waterbottles",
-          "metaTagDescription": "Waterbottles",
-          "metaTagKeywords": "Waterbottles",
-          "slug": "waterbottles"
-        },
-        "childrenCategories": [],
-        "sequence": 1,
-        "isDisplayed": true,
-        "categoryCode": "35",
-        "count": 0
-      }
-    ],
-    "measurements": {
-      "packageHeight": {
-        "unit": "in",
-        "value": 4
-      },
-      "packageWidth": {
-        "unit": "in",
-        "value": 4
-      },
-      "packageLength": {
-        "unit": "in",
-        "value": 9
-      },
-      "packageWeight": {
-        "unit": "lbs",
-        "value": 0.5
-      }
-    },
-    "properties": [
-      {
-        "attributeFQN": "Tenant~color",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "Predefined",
-          "inputType": "List",
-          "dataType": "String",
-          "usageType": "Property",
-          "dataTypeSequence": 5,
-          "name": "Color",
-          "description": "",
-          "searchableInStorefront": true
-        },
-        "values": [
-          {
-            "value": "Blue",
-            "stringValue": "Blue"
-          },
-          {
-            "value": "Grey",
-            "stringValue": "Grey"
-          },
-          {
-            "value": "Multi",
-            "stringValue": "Multi"
-          }
-        ]
-      },
-      {
-        "attributeFQN": "tenant~availability",
-        "isHidden": false,
-        "isMultiValue": false,
-        "attributeDetail": {
-          "valueType": "Predefined",
-          "inputType": "List",
-          "dataType": "String",
-          "usageType": "Property",
-          "dataTypeSequence": 1,
-          "name": "Availability",
-          "searchableInStorefront": true
-        },
-        "values": [
-          {
-            "value": "24-48hrs",
-            "stringValue": "Usually Ships in 24 to 48 Hours"
-          }
-        ]
-      },
-      {
-        "attributeFQN": "tenant~product-crosssell",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "String",
-          "usageType": "Property",
-          "dataTypeSequence": 2,
-          "name": "Product Cross-Sells"
-        },
-        "values": []
-      },
-      {
-        "attributeFQN": "tenant~popularity",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "Number",
-          "usageType": "Property",
-          "dataTypeSequence": 1,
-          "name": "Popularity",
-          "searchableInStorefront": true
-        },
-        "values": [
-          {
-            "value": 2
-          }
-        ]
-      },
-      {
-        "attributeFQN": "tenant~rating",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "Number",
-          "usageType": "Property",
-          "dataTypeSequence": 2,
-          "name": "Rating",
-          "searchableInStorefront": true
-        },
-        "values": [
-          {
-            "value": 2
-          }
-        ]
-      },
-      {
-        "attributeFQN": "tenant~product-related",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "String",
-          "usageType": "Property",
-          "dataTypeSequence": 3,
-          "name": "Related Products"
-        },
-        "values": []
-      },
-      {
-        "attributeFQN": "tenant~product-upsell",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "String",
-          "usageType": "Property",
-          "dataTypeSequence": 4,
-          "name": "Product Upsells"
-        },
-        "values": []
-      }
-    ],
-    "variations": []
-  },
   "api.commerce.order": {
     "orderNumber": 5,
     "version": "1",
@@ -2252,8 +1976,271 @@
       "createBy": "ce8e16b845484bd7bd0fae97a3b1b018"
     }
   },
+  "mozu.commerce.catalog.storefront.product": {
+    "productCode": "MS-BTL-004",
+    "productSequence": 25,
+    "productUsage": "Standard",
+    "fulfillmentTypesSupported": [
+      "DirectShip",
+      "InStorePickup"
+    ],
+    "goodsType": "Physical",
+    "content": {
+      "productName": "Vida Small",
+      "productFullDescription": "We love the durability and beauty of steel. But we didn't like the way steel bottles felt in our hands – or on our lips. So we pushed ourselves to create a better solution. Our reward was Vida. Its tapered profile and ergonomic handle make it a joy to hold. Our smooth, threadless spout replicates our Perfect Spout™, a first for any steel bottle.&nbsp;",
+      "productShortDescription": "Its tapered profile and ergonomic handle make it a joy to hold. Our smooth, threadless spout replicates our Perfect Spout, a first for any steel bottle.",
+      "metaTagTitle": "Vida Small",
+      "metaTagDescription": "",
+      "metaTagKeywords": "",
+      "seoFriendlyUrl": "vida-small",
+      "productImages": [
+        {
+          "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/7b7b50f0-7155-48b4-8c55-bf6b720b64f8",
+          "cmsId": "7b7b50f0-7155-48b4-8c55-bf6b720b64f8",
+          "sequence": 1
+        }
+      ]
+    },
+    "purchasableState": {
+      "isPurchasable": false,
+      "messages": [
+        {
+          "severity": "Info",
+          "source": "Product",
+          "message": "Product is out of stock",
+          "validationType": "OutOfStock"
+        }
+      ]
+    },
+    "isActive": true,
+    "publishState": "Live",
+    "price": {
+      "price": 7,
+      "priceType": "List",
+      "catalogListPrice": 7
+    },
+    "productType": "Water Bottles",
+    "isTaxable": true,
+    "pricingBehavior": {
+      "discountsRestricted": false
+    },
+    "inventoryInfo": {
+      "manageStock": true,
+      "outOfStockBehavior": "DisplayMessage",
+      "onlineStockAvailable": 0,
+      "onlineSoftStockAvailable": 0,
+      "onlineLocationCode": "WRH001"
+    },
+    "createDate": "2014-12-15T21:10:19.354Z",
+    "upc": "",
+    "upCs": [
+      ""
+    ],
+    "mfgPartNumber": "",
+    "mfgPartNumbers": [
+      ""
+    ],
+    "categories": [
+      {
+        "categoryId": 32,
+        "content": {
+          "categoryImages": [],
+          "name": "Accessories",
+          "description": "",
+          "pageTitle": "Accessories",
+          "metaTagTitle": "Accessories",
+          "metaTagDescription": "Accessories",
+          "metaTagKeywords": "Accessories",
+          "slug": "accessories"
+        },
+        "childrenCategories": [],
+        "sequence": 3,
+        "isDisplayed": true,
+        "categoryCode": "32",
+        "count": 0
+      },
+      {
+        "categoryId": 35,
+        "parentCategory": {
+          "categoryId": 32,
+          "content": {
+            "categoryImages": [],
+            "name": "Accessories",
+            "description": "",
+            "pageTitle": "Accessories",
+            "metaTagTitle": "Accessories",
+            "metaTagDescription": "Accessories",
+            "metaTagKeywords": "Accessories",
+            "slug": "accessories"
+          },
+          "childrenCategories": [],
+          "sequence": 1,
+          "isDisplayed": true,
+          "categoryCode": "35",
+          "count": 0
+        },
+        "content": {
+          "categoryImages": [],
+          "name": "Waterbottles",
+          "description": "",
+          "pageTitle": "Waterbottles",
+          "metaTagTitle": "Waterbottles",
+          "metaTagDescription": "Waterbottles",
+          "metaTagKeywords": "Waterbottles",
+          "slug": "waterbottles"
+        },
+        "childrenCategories": [],
+        "sequence": 1,
+        "isDisplayed": true,
+        "categoryCode": "35",
+        "count": 0
+      }
+    ],
+    "measurements": {
+      "packageHeight": {
+        "unit": "in",
+        "value": 4
+      },
+      "packageWidth": {
+        "unit": "in",
+        "value": 4
+      },
+      "packageLength": {
+        "unit": "in",
+        "value": 9
+      },
+      "packageWeight": {
+        "unit": "lbs",
+        "value": 0.5
+      }
+    },
+    "properties": [
+      {
+        "attributeFQN": "Tenant~color",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "Predefined",
+          "inputType": "List",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 5,
+          "name": "Color",
+          "description": "",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": "Black",
+            "stringValue": "Black"
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~availability",
+        "isHidden": false,
+        "isMultiValue": false,
+        "attributeDetail": {
+          "valueType": "Predefined",
+          "inputType": "List",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 1,
+          "name": "Availability",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": "24-48hrs",
+            "stringValue": "Usually Ships in 24 to 48 Hours"
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~product-crosssell",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 2,
+          "name": "Product Cross-Sells"
+        },
+        "values": []
+      },
+      {
+        "attributeFQN": "tenant~popularity",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "Number",
+          "usageType": "Property",
+          "dataTypeSequence": 1,
+          "name": "Popularity",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": 3
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~rating",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "Number",
+          "usageType": "Property",
+          "dataTypeSequence": 2,
+          "name": "Rating",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": 4
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~product-related",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 3,
+          "name": "Related Products"
+        },
+        "values": []
+      },
+      {
+        "attributeFQN": "tenant~product-upsell",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 4,
+          "name": "Product Upsells"
+        },
+        "values": []
+      }
+    ],
+    "variations": []
+  },
   "api.commerce.cart": {
-    "userId": "f90f09f6daea44e8bab95db7e077aa83",
+    "userId": "cf45b2fdff7a43c8af51537e8a23e518",
     "items": [
       {
         "id": "49f1fea7ca004ea3b0b3a41b0125ad34",
@@ -2270,34 +2257,14 @@
           "options": [],
           "properties": [
             {
-              "attributeFQN": "tenant~product-upsell",
-              "name": "Product Upsells",
+              "attributeFQN": "tenant~availability",
+              "name": "Availability",
               "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-related",
-              "name": "Related Products",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-crosssell",
-              "name": "Product Cross-Sells",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~rating",
-              "name": "Rating",
-              "dataType": "Number",
-              "isMultiValue": true,
+              "isMultiValue": false,
               "values": [
                 {
-                  "value": 5
+                  "stringValue": "Usually Ships in 24 Hours",
+                  "value": "24hrs"
                 }
               ]
             },
@@ -2313,16 +2280,36 @@
               ]
             },
             {
-              "attributeFQN": "tenant~availability",
-              "name": "Availability",
-              "dataType": "String",
-              "isMultiValue": false,
+              "attributeFQN": "tenant~rating",
+              "name": "Rating",
+              "dataType": "Number",
+              "isMultiValue": true,
               "values": [
                 {
-                  "stringValue": "Usually Ships in 24 Hours",
-                  "value": "24hrs"
+                  "value": 5
                 }
               ]
+            },
+            {
+              "attributeFQN": "tenant~product-crosssell",
+              "name": "Product Cross-Sells",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-related",
+              "name": "Related Products",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-upsell",
+              "name": "Product Upsells",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
             }
           ],
           "categories": [
@@ -2710,7 +2697,7 @@
     ],
     "couponCodes": [],
     "invalidCoupons": [],
-    "id": "0688f1d021f6633ed0ca8f6400002bfe",
+    "id": "06ac705821f6631a8c9fe05e00002bfe",
     "tenantId": 11262,
     "siteId": 14951,
     "currencyCode": "USD",
@@ -2741,19 +2728,19 @@
     "taxTotal": 0,
     "feeTotal": 0,
     "total": 3681,
-    "lastValidationDate": "2015-06-22T23:01:36.409Z",
-    "expirationDate": "2015-07-06T23:01:36.409Z",
+    "lastValidationDate": "2015-07-19T21:10:48.234Z",
+    "expirationDate": "2015-08-02T21:10:48.234Z",
     "changeMessages": [],
     "extendedProperties": [],
     "auditInfo": {
-      "updateDate": "2015-06-22T23:01:36.409Z",
-      "createDate": "2015-06-22T23:01:36.409Z",
-      "updateBy": "f90f09f6daea44e8bab95db7e077aa83",
-      "createBy": "f90f09f6daea44e8bab95db7e077aa83"
+      "updateDate": "2015-07-19T21:10:48.234Z",
+      "createDate": "2015-07-19T21:10:48.234Z",
+      "updateBy": "cf45b2fdff7a43c8af51537e8a23e518",
+      "createBy": "cf45b2fdff7a43c8af51537e8a23e518"
     }
   },
   "mozu.commerceRuntime.contracts.cart.cart": {
-    "userId": "f90f09f6daea44e8bab95db7e077aa83",
+    "userId": "cf45b2fdff7a43c8af51537e8a23e518",
     "items": [
       {
         "id": "49f1fea7ca004ea3b0b3a41b0125ad34",
@@ -2770,34 +2757,14 @@
           "options": [],
           "properties": [
             {
-              "attributeFQN": "tenant~product-upsell",
-              "name": "Product Upsells",
+              "attributeFQN": "tenant~availability",
+              "name": "Availability",
               "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-related",
-              "name": "Related Products",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~product-crosssell",
-              "name": "Product Cross-Sells",
-              "dataType": "String",
-              "isMultiValue": true,
-              "values": []
-            },
-            {
-              "attributeFQN": "tenant~rating",
-              "name": "Rating",
-              "dataType": "Number",
-              "isMultiValue": true,
+              "isMultiValue": false,
               "values": [
                 {
-                  "value": 5
+                  "stringValue": "Usually Ships in 24 Hours",
+                  "value": "24hrs"
                 }
               ]
             },
@@ -2813,16 +2780,36 @@
               ]
             },
             {
-              "attributeFQN": "tenant~availability",
-              "name": "Availability",
-              "dataType": "String",
-              "isMultiValue": false,
+              "attributeFQN": "tenant~rating",
+              "name": "Rating",
+              "dataType": "Number",
+              "isMultiValue": true,
               "values": [
                 {
-                  "stringValue": "Usually Ships in 24 Hours",
-                  "value": "24hrs"
+                  "value": 5
                 }
               ]
+            },
+            {
+              "attributeFQN": "tenant~product-crosssell",
+              "name": "Product Cross-Sells",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-related",
+              "name": "Related Products",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
+            },
+            {
+              "attributeFQN": "tenant~product-upsell",
+              "name": "Product Upsells",
+              "dataType": "String",
+              "isMultiValue": true,
+              "values": []
             }
           ],
           "categories": [
@@ -3210,7 +3197,7 @@
     ],
     "couponCodes": [],
     "invalidCoupons": [],
-    "id": "0688f1d021f6633ed0ca8f6400002bfe",
+    "id": "06ac705821f6631a8c9fe05e00002bfe",
     "tenantId": 11262,
     "siteId": 14951,
     "currencyCode": "USD",
@@ -3241,15 +3228,15 @@
     "taxTotal": 0,
     "feeTotal": 0,
     "total": 3681,
-    "lastValidationDate": "2015-06-22T23:01:36.409Z",
-    "expirationDate": "2015-07-06T23:01:36.409Z",
+    "lastValidationDate": "2015-07-19T21:10:48.234Z",
+    "expirationDate": "2015-08-02T21:10:48.234Z",
     "changeMessages": [],
     "extendedProperties": [],
     "auditInfo": {
-      "updateDate": "2015-06-22T23:01:36.409Z",
-      "createDate": "2015-06-22T23:01:36.409Z",
-      "updateBy": "f90f09f6daea44e8bab95db7e077aa83",
-      "createBy": "f90f09f6daea44e8bab95db7e077aa83"
+      "updateDate": "2015-07-19T21:10:48.234Z",
+      "createDate": "2015-07-19T21:10:48.234Z",
+      "updateBy": "cf45b2fdff7a43c8af51537e8a23e518",
+      "createBy": "cf45b2fdff7a43c8af51537e8a23e518"
     }
   },
   "mozu.commerceRuntime.contracts.cart.cartItem": {
@@ -3267,34 +3254,14 @@
       "options": [],
       "properties": [
         {
-          "attributeFQN": "tenant~product-upsell",
-          "name": "Product Upsells",
+          "attributeFQN": "tenant~availability",
+          "name": "Availability",
           "dataType": "String",
-          "isMultiValue": true,
-          "values": []
-        },
-        {
-          "attributeFQN": "tenant~product-related",
-          "name": "Related Products",
-          "dataType": "String",
-          "isMultiValue": true,
-          "values": []
-        },
-        {
-          "attributeFQN": "tenant~product-crosssell",
-          "name": "Product Cross-Sells",
-          "dataType": "String",
-          "isMultiValue": true,
-          "values": []
-        },
-        {
-          "attributeFQN": "tenant~rating",
-          "name": "Rating",
-          "dataType": "Number",
-          "isMultiValue": true,
+          "isMultiValue": false,
           "values": [
             {
-              "value": 5
+              "stringValue": "Usually Ships in 24 Hours",
+              "value": "24hrs"
             }
           ]
         },
@@ -3310,16 +3277,36 @@
           ]
         },
         {
-          "attributeFQN": "tenant~availability",
-          "name": "Availability",
-          "dataType": "String",
-          "isMultiValue": false,
+          "attributeFQN": "tenant~rating",
+          "name": "Rating",
+          "dataType": "Number",
+          "isMultiValue": true,
           "values": [
             {
-              "stringValue": "Usually Ships in 24 Hours",
-              "value": "24hrs"
+              "value": 5
             }
           ]
+        },
+        {
+          "attributeFQN": "tenant~product-crosssell",
+          "name": "Product Cross-Sells",
+          "dataType": "String",
+          "isMultiValue": true,
+          "values": []
+        },
+        {
+          "attributeFQN": "tenant~product-related",
+          "name": "Related Products",
+          "dataType": "String",
+          "isMultiValue": true,
+          "values": []
+        },
+        {
+          "attributeFQN": "tenant~product-upsell",
+          "name": "Product Upsells",
+          "dataType": "String",
+          "isMultiValue": true,
+          "values": []
         }
       ],
       "categories": [
