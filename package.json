@@ -22,7 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "mozu-metadata": "latest",
-    "mozu-node-sdk": "^1.17.15154-hotfix4"
+    "mozu-node-sdk": "latest"
   },
   "devDependencies": {
     "chalk": "^1.1.0",
