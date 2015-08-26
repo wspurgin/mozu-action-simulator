@@ -2137,51 +2137,38 @@
         ]
       },
       {
-        "attributeFQN": "tenant~product-upsell",
+        "attributeFQN": "tenant~availability",
         "isHidden": false,
-        "isMultiValue": true,
+        "isMultiValue": false,
         "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
+          "valueType": "Predefined",
+          "inputType": "List",
           "dataType": "String",
           "usageType": "Property",
-          "dataTypeSequence": 4,
-          "name": "Product Upsells"
-        },
-        "values": []
-      },
-      {
-        "attributeFQN": "tenant~product-related",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "String",
-          "usageType": "Property",
-          "dataTypeSequence": 3,
-          "name": "Related Products"
-        },
-        "values": []
-      },
-      {
-        "attributeFQN": "tenant~rating",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "Number",
-          "usageType": "Property",
-          "dataTypeSequence": 2,
-          "name": "Rating",
+          "dataTypeSequence": 1,
+          "name": "Availability",
           "searchableInStorefront": true
         },
         "values": [
           {
-            "value": 4
+            "value": "24-48hrs",
+            "stringValue": "Usually Ships in 24 to 48 Hours"
           }
         ]
+      },
+      {
+        "attributeFQN": "tenant~product-crosssell",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 2,
+          "name": "Product Cross-Sells"
+        },
+        "values": []
       },
       {
         "attributeFQN": "tenant~popularity",
@@ -2203,7 +2190,26 @@
         ]
       },
       {
-        "attributeFQN": "tenant~product-crosssell",
+        "attributeFQN": "tenant~rating",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "Number",
+          "usageType": "Property",
+          "dataTypeSequence": 2,
+          "name": "Rating",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": 4
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~product-related",
         "isHidden": false,
         "isMultiValue": true,
         "attributeDetail": {
@@ -2211,36 +2217,30 @@
           "inputType": "TextBox",
           "dataType": "String",
           "usageType": "Property",
-          "dataTypeSequence": 2,
-          "name": "Product Cross-Sells"
+          "dataTypeSequence": 3,
+          "name": "Related Products"
         },
         "values": []
       },
       {
-        "attributeFQN": "tenant~availability",
+        "attributeFQN": "tenant~product-upsell",
         "isHidden": false,
-        "isMultiValue": false,
+        "isMultiValue": true,
         "attributeDetail": {
-          "valueType": "Predefined",
-          "inputType": "List",
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
           "dataType": "String",
           "usageType": "Property",
-          "dataTypeSequence": 1,
-          "name": "Availability",
-          "searchableInStorefront": true
+          "dataTypeSequence": 4,
+          "name": "Product Upsells"
         },
-        "values": [
-          {
-            "value": "24-48hrs",
-            "stringValue": "Usually Ships in 24 to 48 Hours"
-          }
-        ]
+        "values": []
       }
     ],
     "variations": []
   },
   "api.commerce.cart": {
-    "userId": "751eb6720cb84b0784325f02e7eef499",
+    "userId": "2899fae785804e21a9eada491eb054e5",
     "items": [
       {
         "id": "49f1fea7ca004ea3b0b3a41b0125ad34",
@@ -2697,7 +2697,7 @@
     ],
     "couponCodes": [],
     "invalidCoupons": [],
-    "id": "06de8cd55621e1112c2d150d00002bfe",
+    "id": "06de967621f6630f6864f09000002bfe",
     "tenantId": 11262,
     "siteId": 14951,
     "currencyCode": "USD",
@@ -2728,19 +2728,19 @@
     "taxTotal": 0,
     "feeTotal": 0,
     "total": 3681,
-    "lastValidationDate": "2015-08-26T21:25:41.369Z",
-    "expirationDate": "2015-09-09T21:25:41.369Z",
+    "lastValidationDate": "2015-08-26T22:06:46.323Z",
+    "expirationDate": "2015-09-09T22:06:46.323Z",
     "changeMessages": [],
     "extendedProperties": [],
     "auditInfo": {
-      "updateDate": "2015-08-26T21:25:41.384Z",
-      "createDate": "2015-08-26T21:25:41.384Z",
-      "updateBy": "751eb6720cb84b0784325f02e7eef499",
-      "createBy": "751eb6720cb84b0784325f02e7eef499"
+      "updateDate": "2015-08-26T22:06:46.323Z",
+      "createDate": "2015-08-26T22:06:46.323Z",
+      "updateBy": "2899fae785804e21a9eada491eb054e5",
+      "createBy": "2899fae785804e21a9eada491eb054e5"
     }
   },
   "mozu.commerceRuntime.contracts.cart.cart": {
-    "userId": "751eb6720cb84b0784325f02e7eef499",
+    "userId": "2899fae785804e21a9eada491eb054e5",
     "items": [
       {
         "id": "49f1fea7ca004ea3b0b3a41b0125ad34",
@@ -3197,7 +3197,7 @@
     ],
     "couponCodes": [],
     "invalidCoupons": [],
-    "id": "06de8cd55621e1112c2d150d00002bfe",
+    "id": "06de967621f6630f6864f09000002bfe",
     "tenantId": 11262,
     "siteId": 14951,
     "currencyCode": "USD",
@@ -3228,15 +3228,15 @@
     "taxTotal": 0,
     "feeTotal": 0,
     "total": 3681,
-    "lastValidationDate": "2015-08-26T21:25:41.369Z",
-    "expirationDate": "2015-09-09T21:25:41.369Z",
+    "lastValidationDate": "2015-08-26T22:06:46.323Z",
+    "expirationDate": "2015-09-09T22:06:46.323Z",
     "changeMessages": [],
     "extendedProperties": [],
     "auditInfo": {
-      "updateDate": "2015-08-26T21:25:41.384Z",
-      "createDate": "2015-08-26T21:25:41.384Z",
-      "updateBy": "751eb6720cb84b0784325f02e7eef499",
-      "createBy": "751eb6720cb84b0784325f02e7eef499"
+      "updateDate": "2015-08-26T22:06:46.323Z",
+      "createDate": "2015-08-26T22:06:46.323Z",
+      "updateBy": "2899fae785804e21a9eada491eb054e5",
+      "createBy": "2899fae785804e21a9eada491eb054e5"
     }
   },
   "mozu.commerceRuntime.contracts.cart.cartItem": {
