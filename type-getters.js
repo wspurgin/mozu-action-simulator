@@ -1,4 +1,3 @@
-var when = require('when');
 var path = require('path');
 var fs = require('fs');
 // var orderId = "05b0729b21f6632830431e1c00002bfe";
@@ -55,10 +54,12 @@ function createCartFromOrder(shopperClient, order) {
 var exampleCartPromise;
 function getExampleCart(client) {
   if (exampleCartPromise) return exampleCartPromise;
-  return exampleCartPromise = when.join(
+  return exampleCartPromise = Promise.all([
    addAnonShopperClaims(client),
    getFirstOrder(client)
-  ).spread(createCartFromOrder);
+  ]).then(function(res) {
+    return createCartFromOrder.apply(this, res);
+  });
 }
 
 function getExampleCartItem(client) {
@@ -95,7 +96,7 @@ function convertCamelCase(obj, thing) {
 }
 
 function promiseForStatic(type) {
-  var p = when(convertCamelCase(require('./static-fixtures/' + type + '.json')));
+  var p = Promise.resolve(convertCamelCase(require('./static-fixtures/' + type + '.json')));
   return function() { return p; };
 }
 

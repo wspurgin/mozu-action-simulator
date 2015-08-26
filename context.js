@@ -1,4 +1,4 @@
-var ActionDefs = require('mozu-metadata').actionDefinitions;
+var ActionDefs = require('./action-definitions.json');
 var HttpContext = require('./httpContext');
 var GenericContext = require('./genericContext');
 var fixtures = require('./fixtures');
