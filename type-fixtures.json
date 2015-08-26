@@ -103,6 +103,269 @@
       }
     ]
   },
+  "mozu.commerce.catalog.storefront.product": {
+    "productCode": "MS-BTL-004",
+    "productSequence": 25,
+    "productUsage": "Standard",
+    "fulfillmentTypesSupported": [
+      "DirectShip",
+      "InStorePickup"
+    ],
+    "goodsType": "Physical",
+    "content": {
+      "productName": "Vida Small",
+      "productFullDescription": "We love the durability and beauty of steel. But we didn't like the way steel bottles felt in our hands – or on our lips. So we pushed ourselves to create a better solution. Our reward was Vida. Its tapered profile and ergonomic handle make it a joy to hold. Our smooth, threadless spout replicates our Perfect Spout™, a first for any steel bottle.&nbsp;",
+      "productShortDescription": "Its tapered profile and ergonomic handle make it a joy to hold. Our smooth, threadless spout replicates our Perfect Spout, a first for any steel bottle.",
+      "metaTagTitle": "Vida Small",
+      "metaTagDescription": "",
+      "metaTagKeywords": "",
+      "seoFriendlyUrl": "vida-small",
+      "productImages": [
+        {
+          "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/7b7b50f0-7155-48b4-8c55-bf6b720b64f8",
+          "cmsId": "7b7b50f0-7155-48b4-8c55-bf6b720b64f8",
+          "sequence": 1
+        }
+      ]
+    },
+    "purchasableState": {
+      "isPurchasable": false,
+      "messages": [
+        {
+          "severity": "Info",
+          "source": "Product",
+          "message": "Product is out of stock",
+          "validationType": "OutOfStock"
+        }
+      ]
+    },
+    "isActive": true,
+    "publishState": "Live",
+    "price": {
+      "price": 7,
+      "priceType": "List",
+      "catalogListPrice": 7
+    },
+    "productType": "Water Bottles",
+    "isTaxable": true,
+    "pricingBehavior": {
+      "discountsRestricted": false
+    },
+    "inventoryInfo": {
+      "manageStock": true,
+      "outOfStockBehavior": "DisplayMessage",
+      "onlineStockAvailable": 0,
+      "onlineSoftStockAvailable": 0,
+      "onlineLocationCode": "WRH001"
+    },
+    "createDate": "2014-12-15T21:10:19.354Z",
+    "upc": "",
+    "upCs": [
+      ""
+    ],
+    "mfgPartNumber": "",
+    "mfgPartNumbers": [
+      ""
+    ],
+    "categories": [
+      {
+        "categoryId": 32,
+        "content": {
+          "categoryImages": [],
+          "name": "Accessories",
+          "description": "",
+          "pageTitle": "Accessories",
+          "metaTagTitle": "Accessories",
+          "metaTagDescription": "Accessories",
+          "metaTagKeywords": "Accessories",
+          "slug": "accessories"
+        },
+        "childrenCategories": [],
+        "sequence": 3,
+        "isDisplayed": true,
+        "categoryCode": "32",
+        "count": 0
+      },
+      {
+        "categoryId": 35,
+        "parentCategory": {
+          "categoryId": 32,
+          "content": {
+            "categoryImages": [],
+            "name": "Accessories",
+            "description": "",
+            "pageTitle": "Accessories",
+            "metaTagTitle": "Accessories",
+            "metaTagDescription": "Accessories",
+            "metaTagKeywords": "Accessories",
+            "slug": "accessories"
+          },
+          "childrenCategories": [],
+          "sequence": 1,
+          "isDisplayed": true,
+          "categoryCode": "35",
+          "count": 0
+        },
+        "content": {
+          "categoryImages": [],
+          "name": "Waterbottles",
+          "description": "",
+          "pageTitle": "Waterbottles",
+          "metaTagTitle": "Waterbottles",
+          "metaTagDescription": "Waterbottles",
+          "metaTagKeywords": "Waterbottles",
+          "slug": "waterbottles"
+        },
+        "childrenCategories": [],
+        "sequence": 1,
+        "isDisplayed": true,
+        "categoryCode": "35",
+        "count": 0
+      }
+    ],
+    "measurements": {
+      "packageHeight": {
+        "unit": "in",
+        "value": 4
+      },
+      "packageWidth": {
+        "unit": "in",
+        "value": 4
+      },
+      "packageLength": {
+        "unit": "in",
+        "value": 9
+      },
+      "packageWeight": {
+        "unit": "lbs",
+        "value": 0.5
+      }
+    },
+    "properties": [
+      {
+        "attributeFQN": "Tenant~color",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "Predefined",
+          "inputType": "List",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 5,
+          "name": "Color",
+          "description": "",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": "Black",
+            "stringValue": "Black"
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~availability",
+        "isHidden": false,
+        "isMultiValue": false,
+        "attributeDetail": {
+          "valueType": "Predefined",
+          "inputType": "List",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 1,
+          "name": "Availability",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": "24-48hrs",
+            "stringValue": "Usually Ships in 24 to 48 Hours"
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~product-crosssell",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 2,
+          "name": "Product Cross-Sells"
+        },
+        "values": []
+      },
+      {
+        "attributeFQN": "tenant~popularity",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "Number",
+          "usageType": "Property",
+          "dataTypeSequence": 1,
+          "name": "Popularity",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": 3
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~rating",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "Number",
+          "usageType": "Property",
+          "dataTypeSequence": 2,
+          "name": "Rating",
+          "searchableInStorefront": true
+        },
+        "values": [
+          {
+            "value": 4
+          }
+        ]
+      },
+      {
+        "attributeFQN": "tenant~product-related",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 3,
+          "name": "Related Products"
+        },
+        "values": []
+      },
+      {
+        "attributeFQN": "tenant~product-upsell",
+        "isHidden": false,
+        "isMultiValue": true,
+        "attributeDetail": {
+          "valueType": "AdminEntered",
+          "inputType": "TextBox",
+          "dataType": "String",
+          "usageType": "Property",
+          "dataTypeSequence": 4,
+          "name": "Product Upsells"
+        },
+        "values": []
+      }
+    ],
+    "variations": []
+  },
   "api.commerce.order": {
     "orderNumber": 5,
     "version": "1",
@@ -1976,271 +2239,8 @@
       "createBy": "ce8e16b845484bd7bd0fae97a3b1b018"
     }
   },
-  "mozu.commerce.catalog.storefront.product": {
-    "productCode": "MS-BTL-004",
-    "productSequence": 25,
-    "productUsage": "Standard",
-    "fulfillmentTypesSupported": [
-      "DirectShip",
-      "InStorePickup"
-    ],
-    "goodsType": "Physical",
-    "content": {
-      "productName": "Vida Small",
-      "productFullDescription": "We love the durability and beauty of steel. But we didn't like the way steel bottles felt in our hands – or on our lips. So we pushed ourselves to create a better solution. Our reward was Vida. Its tapered profile and ergonomic handle make it a joy to hold. Our smooth, threadless spout replicates our Perfect Spout™, a first for any steel bottle.&nbsp;",
-      "productShortDescription": "Its tapered profile and ergonomic handle make it a joy to hold. Our smooth, threadless spout replicates our Perfect Spout, a first for any steel bottle.",
-      "metaTagTitle": "Vida Small",
-      "metaTagDescription": "",
-      "metaTagKeywords": "",
-      "seoFriendlyUrl": "vida-small",
-      "productImages": [
-        {
-          "imageUrl": "//cdn-sb.mozu.com/11262-14951/cms/14951/files/7b7b50f0-7155-48b4-8c55-bf6b720b64f8",
-          "cmsId": "7b7b50f0-7155-48b4-8c55-bf6b720b64f8",
-          "sequence": 1
-        }
-      ]
-    },
-    "purchasableState": {
-      "isPurchasable": false,
-      "messages": [
-        {
-          "severity": "Info",
-          "source": "Product",
-          "message": "Product is out of stock",
-          "validationType": "OutOfStock"
-        }
-      ]
-    },
-    "isActive": true,
-    "publishState": "Live",
-    "price": {
-      "price": 7,
-      "priceType": "List",
-      "catalogListPrice": 7
-    },
-    "productType": "Water Bottles",
-    "isTaxable": true,
-    "pricingBehavior": {
-      "discountsRestricted": false
-    },
-    "inventoryInfo": {
-      "manageStock": true,
-      "outOfStockBehavior": "DisplayMessage",
-      "onlineStockAvailable": 0,
-      "onlineSoftStockAvailable": 0,
-      "onlineLocationCode": "WRH001"
-    },
-    "createDate": "2014-12-15T21:10:19.354Z",
-    "upc": "",
-    "upCs": [
-      ""
-    ],
-    "mfgPartNumber": "",
-    "mfgPartNumbers": [
-      ""
-    ],
-    "categories": [
-      {
-        "categoryId": 32,
-        "content": {
-          "categoryImages": [],
-          "name": "Accessories",
-          "description": "",
-          "pageTitle": "Accessories",
-          "metaTagTitle": "Accessories",
-          "metaTagDescription": "Accessories",
-          "metaTagKeywords": "Accessories",
-          "slug": "accessories"
-        },
-        "childrenCategories": [],
-        "sequence": 3,
-        "isDisplayed": true,
-        "categoryCode": "32",
-        "count": 0
-      },
-      {
-        "categoryId": 35,
-        "parentCategory": {
-          "categoryId": 32,
-          "content": {
-            "categoryImages": [],
-            "name": "Accessories",
-            "description": "",
-            "pageTitle": "Accessories",
-            "metaTagTitle": "Accessories",
-            "metaTagDescription": "Accessories",
-            "metaTagKeywords": "Accessories",
-            "slug": "accessories"
-          },
-          "childrenCategories": [],
-          "sequence": 1,
-          "isDisplayed": true,
-          "categoryCode": "35",
-          "count": 0
-        },
-        "content": {
-          "categoryImages": [],
-          "name": "Waterbottles",
-          "description": "",
-          "pageTitle": "Waterbottles",
-          "metaTagTitle": "Waterbottles",
-          "metaTagDescription": "Waterbottles",
-          "metaTagKeywords": "Waterbottles",
-          "slug": "waterbottles"
-        },
-        "childrenCategories": [],
-        "sequence": 1,
-        "isDisplayed": true,
-        "categoryCode": "35",
-        "count": 0
-      }
-    ],
-    "measurements": {
-      "packageHeight": {
-        "unit": "in",
-        "value": 4
-      },
-      "packageWidth": {
-        "unit": "in",
-        "value": 4
-      },
-      "packageLength": {
-        "unit": "in",
-        "value": 9
-      },
-      "packageWeight": {
-        "unit": "lbs",
-        "value": 0.5
-      }
-    },
-    "properties": [
-      {
-        "attributeFQN": "Tenant~color",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "Predefined",
-          "inputType": "List",
-          "dataType": "String",
-          "usageType": "Property",
-          "dataTypeSequence": 5,
-          "name": "Color",
-          "description": "",
-          "searchableInStorefront": true
-        },
-        "values": [
-          {
-            "value": "Black",
-            "stringValue": "Black"
-          }
-        ]
-      },
-      {
-        "attributeFQN": "tenant~availability",
-        "isHidden": false,
-        "isMultiValue": false,
-        "attributeDetail": {
-          "valueType": "Predefined",
-          "inputType": "List",
-          "dataType": "String",
-          "usageType": "Property",
-          "dataTypeSequence": 1,
-          "name": "Availability",
-          "searchableInStorefront": true
-        },
-        "values": [
-          {
-            "value": "24-48hrs",
-            "stringValue": "Usually Ships in 24 to 48 Hours"
-          }
-        ]
-      },
-      {
-        "attributeFQN": "tenant~product-crosssell",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "String",
-          "usageType": "Property",
-          "dataTypeSequence": 2,
-          "name": "Product Cross-Sells"
-        },
-        "values": []
-      },
-      {
-        "attributeFQN": "tenant~popularity",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "Number",
-          "usageType": "Property",
-          "dataTypeSequence": 1,
-          "name": "Popularity",
-          "searchableInStorefront": true
-        },
-        "values": [
-          {
-            "value": 3
-          }
-        ]
-      },
-      {
-        "attributeFQN": "tenant~rating",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "Number",
-          "usageType": "Property",
-          "dataTypeSequence": 2,
-          "name": "Rating",
-          "searchableInStorefront": true
-        },
-        "values": [
-          {
-            "value": 4
-          }
-        ]
-      },
-      {
-        "attributeFQN": "tenant~product-related",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "String",
-          "usageType": "Property",
-          "dataTypeSequence": 3,
-          "name": "Related Products"
-        },
-        "values": []
-      },
-      {
-        "attributeFQN": "tenant~product-upsell",
-        "isHidden": false,
-        "isMultiValue": true,
-        "attributeDetail": {
-          "valueType": "AdminEntered",
-          "inputType": "TextBox",
-          "dataType": "String",
-          "usageType": "Property",
-          "dataTypeSequence": 4,
-          "name": "Product Upsells"
-        },
-        "values": []
-      }
-    ],
-    "variations": []
-  },
   "api.commerce.cart": {
-    "userId": "2899fae785804e21a9eada491eb054e5",
+    "userId": "7f04f4870561465199f3b1a9cb418b5b",
     "items": [
       {
         "id": "49f1fea7ca004ea3b0b3a41b0125ad34",
@@ -2697,7 +2697,7 @@
     ],
     "couponCodes": [],
     "invalidCoupons": [],
-    "id": "06de967621f6630f6864f09000002bfe",
+    "id": "06de96f221f6630f6864f09200002bfe",
     "tenantId": 11262,
     "siteId": 14951,
     "currencyCode": "USD",
@@ -2728,19 +2728,19 @@
     "taxTotal": 0,
     "feeTotal": 0,
     "total": 3681,
-    "lastValidationDate": "2015-08-26T22:06:46.323Z",
-    "expirationDate": "2015-09-09T22:06:46.323Z",
+    "lastValidationDate": "2015-08-26T22:08:49.609Z",
+    "expirationDate": "2015-09-09T22:08:49.609Z",
     "changeMessages": [],
     "extendedProperties": [],
     "auditInfo": {
-      "updateDate": "2015-08-26T22:06:46.323Z",
-      "createDate": "2015-08-26T22:06:46.323Z",
-      "updateBy": "2899fae785804e21a9eada491eb054e5",
-      "createBy": "2899fae785804e21a9eada491eb054e5"
+      "updateDate": "2015-08-26T22:08:49.609Z",
+      "createDate": "2015-08-26T22:08:49.609Z",
+      "updateBy": "7f04f4870561465199f3b1a9cb418b5b",
+      "createBy": "7f04f4870561465199f3b1a9cb418b5b"
     }
   },
   "mozu.commerceRuntime.contracts.cart.cart": {
-    "userId": "2899fae785804e21a9eada491eb054e5",
+    "userId": "7f04f4870561465199f3b1a9cb418b5b",
     "items": [
       {
         "id": "49f1fea7ca004ea3b0b3a41b0125ad34",
@@ -3197,7 +3197,7 @@
     ],
     "couponCodes": [],
     "invalidCoupons": [],
-    "id": "06de967621f6630f6864f09000002bfe",
+    "id": "06de96f221f6630f6864f09200002bfe",
     "tenantId": 11262,
     "siteId": 14951,
     "currencyCode": "USD",
@@ -3228,15 +3228,15 @@
     "taxTotal": 0,
     "feeTotal": 0,
     "total": 3681,
-    "lastValidationDate": "2015-08-26T22:06:46.323Z",
-    "expirationDate": "2015-09-09T22:06:46.323Z",
+    "lastValidationDate": "2015-08-26T22:08:49.609Z",
+    "expirationDate": "2015-09-09T22:08:49.609Z",
     "changeMessages": [],
     "extendedProperties": [],
     "auditInfo": {
-      "updateDate": "2015-08-26T22:06:46.323Z",
-      "createDate": "2015-08-26T22:06:46.323Z",
-      "updateBy": "2899fae785804e21a9eada491eb054e5",
-      "createBy": "2899fae785804e21a9eada491eb054e5"
+      "updateDate": "2015-08-26T22:08:49.609Z",
+      "createDate": "2015-08-26T22:08:49.609Z",
+      "updateBy": "7f04f4870561465199f3b1a9cb418b5b",
+      "createBy": "7f04f4870561465199f3b1a9cb418b5b"
     }
   },
   "mozu.commerceRuntime.contracts.cart.cartItem": {

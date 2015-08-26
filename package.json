@@ -11,7 +11,8 @@
   ],
   "main": "index.js",
   "scripts": {
-    "preversion": "update-arc-defs && node build.js"
+    "preversion": "update-arc-defs",
+    "get-fixtures": "node ./build.js"
   },
   "keywords": [
     "test",
