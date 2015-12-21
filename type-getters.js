@@ -5,6 +5,13 @@ var fs = require('fs');
 // function getOrder(client) {
 //   return client.commerce().order().getOrder({ orderId: orderId });
 // }
+//
+
+function getCustomer(client) {
+  return client.commerce().customer().customerAccount().getAccounts({
+    pageSize: 1
+  }).then(pickFirst);
+}
 
 function getProduct(client) {
   return client.commerce().catalog().storefront().product().getProducts({
@@ -101,6 +108,8 @@ function promiseForStatic(type) {
 }
 
 module.exports = {
+  'order': getFirstOrder,
+  'customer': getCustomer,
   'api.commerce.order': getFirstOrder,
   'mozu.commerceRuntime.contracts.orders.order': getFirstOrder,
   'mozu.commerceRuntime.contracts.orders.orderItem': getFirstOrderFirstItem,
