@@ -1,6 +1,6 @@
 {
   "name": "mozu-action-simulator",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Test fixtures, harnesses, and assertions for Mozu Code Actions.",
   "author": "Volusion, Inc.",
   "contributors": [
