@@ -2,15 +2,18 @@
   "name": "mozu-action-simulator",
   "version": "1.6.1",
   "description": "Test fixtures, harnesses, and assertions for Mozu Code Actions.",
-  "author": "Volusion, Inc.",
-  "contributors": [
-    {
-      "name": "James Zetlen",
-      "email": "james_zetlen@volusion.com"
-    }
-  ],
+  "author": "Volusion, LLC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mozu/mozu-action-simulator"
+  },
   "main": "index.js",
   "scripts": {
+    "ci-build": "echo No CI build available in cloud",
+    "ci-build-stable": "npm run ci-build",
+    "postci-build-stable": "mozu-validate-npm-package",
+    "test": "echo No test framework specified",
+    "cov": "echo No coverage system specified",
     "preversion": "update-arc-defs",
     "get-fixtures": "node ./build.js"
   },
@@ -23,10 +26,11 @@
   "license": "MIT",
   "dependencies": {
     "mozu-metadata": "^2.0.0",
-    "mozu-node-sdk": "latest"
+    "mozu-node-sdk": "*"
   },
   "devDependencies": {
     "chalk": "^1.1.0",
-    "lodash.uniq": "^3.2.2"
+    "lodash.uniq": "^3.2.2",
+    "mozu-validate-npm-package": "^1.1.0"
   }
 }
