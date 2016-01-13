@@ -15,6 +15,7 @@
     "test": "echo No test framework specified",
     "cov": "echo No coverage system specified",
     "preversion": "update-arc-defs",
+    "prepublish": "mozu-npm-publish-check",
     "get-fixtures": "node ./build.js"
   },
   "keywords": [
@@ -25,12 +26,12 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "mozu-metadata": "^2.0.0",
+    "mozu-metadata": "^2.3.6",
     "mozu-node-sdk": "*"
   },
   "devDependencies": {
-    "chalk": "^1.1.0",
-    "lodash.uniq": "^3.2.2",
-    "mozu-validate-npm-package": "^1.1.0"
+    "array-unique": "^0.2.1",
+    "chalk": "^1.1.1",
+    "mozu-validate-npm-package": "^1.2.1"
   }
 }

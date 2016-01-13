@@ -1,4 +1,4 @@
-var uniq = require('lodash.uniq');
+var uniq = require('array-unique');
 
 var aDs = require('./action-definitions.json');
 
