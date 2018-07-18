@@ -64,6 +64,8 @@ function HttpRequest(parentContext) {
 function HttpContext(ctx, callback) {
     this.get = ctx.get || {};
     this.exec = ctx.exec || {};
+    this.apiContext = ctx.apiContext || {};
+    this.configuration = ctx.configuration || {};
     this.response = new HttpResponse(this);
     this.request = new HttpRequest(this);
     this.callback = callback;
