@@ -16,6 +16,10 @@ module.exports = {
   		case "date" :
   		case "datetime":
   			result = new Date();
+        break;
+      case "object":
+        result = {};
+        break;
   		default :
   			result = JSON.parse(JSON.stringify(types[type]));
   			break;
