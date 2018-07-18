@@ -37,7 +37,9 @@ module.exports = function(actionName, callback) {
       newContext.exec[k] = Function.apply(null, argumentsList.concat(functionBody));
     });
   }
-   
+
+  newContext.apiContext.tenantId = 1234
+
   switch (def.context.type) {
       case 'mozu.actions.context.api.filter':
       case 'mozu.actions.context.storefront.filter':
