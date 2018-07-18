@@ -10,6 +10,7 @@
     "commerce.catalog.storefront.shipping",
     "commerce.catalog.storefront.products",
     "commerce.catalog.storefront.pricing",
+    "commerce.catalog.storefront.tax",
     "platform.applications",
     "storefront"
   ],
@@ -3455,6 +3456,26 @@
       "aliases": [],
       "beta": true,
       "domain": "commerce.catalog.storefront.pricing",
+      "contextLevel": "Site",
+      "supportsMultipleCustomFunctions": true,
+      "context": {
+        "type": "mozu.actions.context.http"
+      }
+    },
+    {
+      "action": "http.commerce.catalog.storefront.tax.estimateTaxes.before",
+      "aliases": [],
+      "domain": "commerce.catalog.storefront.tax",
+      "contextLevel": "Site",
+      "supportsMultipleCustomFunctions": true,
+      "context": {
+        "type": "mozu.actions.context.http"
+      }
+    },
+    {
+      "action": "http.commerce.catalog.storefront.tax.estimateTaxes.after",
+      "aliases": [],
+      "domain": "commerce.catalog.storefront.tax",
       "contextLevel": "Site",
       "supportsMultipleCustomFunctions": true,
       "context": {
