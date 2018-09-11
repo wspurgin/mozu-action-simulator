@@ -3091,6 +3091,47 @@
       }
     },
     {
+      "action": "embedded.commerce.return.actions.before",
+      "aliases": [],
+      "domain": "commerce.return",
+      "contextLevel": "Site",
+      "supportsMultipleCustomFunctions": false,
+      "context": {
+        "exec": {
+          "addReturnItem": {
+            "parameters": [
+              {
+                "name": "returnItemA",
+                "type": "object"
+              }
+            ]
+          },
+          "setRMADeadline": {
+            "parameters": [
+              {
+                "name": "rmaDeadline",
+                "type": "Date"
+              }
+            ]
+          }
+        },
+        "get": {
+          "rma": {
+            "parameters": [],
+            "return": {
+              "type": "object"
+            }
+          },
+          "returnAction": {
+            "parameters": [],
+            "return": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    {
       "action": "http.commerce.customer.credits.getCredits.before",
       "aliases": [],
       "domain": "commerce.customer",
